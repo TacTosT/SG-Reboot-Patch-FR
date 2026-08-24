@@ -1,0 +1,57 @@
+STEINS;GATE RE:BOOT — Patch de traduction française
+====================================================
+
+Traduction française complète et non officielle de STEINS;GATE RE:BOOT
+(Steam). Traduite depuis le japonais d'origine, l'anglais officiel n'ayant
+servi que de référence.
+
+  24 795 répliques  ·  187 scripts  ·  le jeu entier
+
+
+INSTALLATION
+------------
+
+1. Lancez Patch_FR_SteinsGate_ReBoot.exe.
+   Windows peut afficher un avertissement SmartScreen (le programme n'est pas
+   signé) : « Informations complémentaires » puis « Exécuter quand même ».
+
+2. Le dossier du jeu est trouvé automatiquement. Sinon, cliquez sur
+   « Parcourir... » et choisissez le dossier SGRE (celui qui contient
+   sgre_steam.exe) ou son sous-dossier wind3d11data.
+
+3. Cliquez sur « Installer la traduction FR ». Comptez une trentaine de
+   secondes : le patch est reconstruit à partir de VOS fichiers de jeu.
+
+4. Lancez le jeu et mettez la langue sur ENGLISH.
+   Le français s'affiche à la place de l'anglais — c'est normal, la traduction
+   occupe l'emplacement de la langue anglaise, qui existe déjà dans le moteur.
+
+
+DÉSINSTALLATION
+---------------
+
+Bouton « Restaurer l'original » : les fichiers d'origine sont remis en place.
+Ils sont conservés dans wind3d11data\_fr_backup — ne supprimez pas ce dossier.
+
+En cas de problème, Steam sait tout réparer :
+clic droit sur le jeu > Propriétés > Fichiers installés > Vérifier l'intégrité.
+
+
+BON À SAVOIR
+------------
+
+- Le patch ne contient aucun fichier du jeu : uniquement le texte français.
+  Il faut donc posséder le jeu.
+- Une mise à jour du jeu peut écraser le patch : relancez simplement
+  l'installeur.
+- Vos sauvegardes de partie ne sont pas touchées.
+- Si le dossier du jeu est protégé en écriture, lancez l'installeur en tant
+  qu'administrateur (clic droit > Exécuter en tant qu'administrateur).
+
+
+CRÉDITS
+-------
+
+Traduction française : Astate
+Patch non officiel, sans aucun lien avec MAGES./5pb./Nitroplus.
+Ne se substitue pas au jeu : achetez-le.
