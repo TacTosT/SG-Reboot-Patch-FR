@@ -18,7 +18,7 @@ from tkinter import filedialog, messagebox, ttk
 
 from sgre_patch import locate, patch
 
-VERSION = "1.0"
+VERSION = "1.1"
 CREDITS = "Traduction française par Astate"
 TITLE = "STEINS;GATE RE:BOOT — Patch français"
 
