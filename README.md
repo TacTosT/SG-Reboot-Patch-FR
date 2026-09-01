@@ -112,6 +112,20 @@ ou anglais d'origine. Voir `.gitignore`, qui documente chaque exclusion.
 STEINS;GATE RE:BOOT est une œuvre de MAGES. / 5pb. / Nitroplus. Ce projet est
 un travail de fan, sans but lucratif et sans lien avec les ayants droit.
 
+### Licence
+
+Le **code** de ce dépôt — outillage MZS/PSB, extraction, réinjection,
+installeur, scripts — est sous [licence MIT](LICENSE). Reprenez-le, adaptez-le
+à un autre jeu du même moteur, il est fait pour ça.
+
+Le **texte de la traduction** (`extracted/all_fr.jsonl`) n'est pas couvert par
+cette licence et ne peut pas l'être : c'est une œuvre dérivée du scénario de
+STEINS;GATE RE:BOOT, dont les droits appartiennent à ses ayants droit. Il est
+mis à disposition pour un usage personnel, avec une copie légitime du jeu.
+
+Aucune licence ne peut être accordée sur les données du jeu — et il n'y en a
+aucune ici.
+
 ---
 
 ## Pour les curieux et les développeurs
