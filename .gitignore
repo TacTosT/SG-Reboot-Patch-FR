@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Données du jeu — NE JAMAIS PUBLIER
+#
+# Ce patch ne redistribue aucun fichier de STEINS;GATE RE:BOOT : l'installeur
+# reconstruit tout à partir de la copie du joueur. Le dépôt doit respecter la
+# même règle. Tout ce qui est listé ici est dérivé du jeu et appartient à
+# MAGES. / 5pb. / Nitroplus.
+# ---------------------------------------------------------------------------
+
+# Archives d'origine du jeu (sauvegarde locale avant patch)
+backup/
+
+# Polices OpenType extraites du jeu
+extracted/fonts/
+
+# Texte du jeu : japonais original, anglais officiel, chinois simplifié et
+# traditionnel. Seule extracted/all_fr.jsonl — la traduction française — est
+# suivie, parce qu'elle est notre travail et que c'est ce que l'installeur livre.
+extracted/all.jsonl
+extracted/all.txt
+extracted/resg00_01.jsonl
+extracted/resg00_01.txt
+extracted/sample_src.jsonl
+
+# Archives de jeu reconstruites pendant le débogage
+debug/builds/
+
+# ---------------------------------------------------------------------------
+# Artefacts de compilation et fichiers de travail
+# ---------------------------------------------------------------------------
+
+__pycache__/
+*.pyc
+
+# PyInstaller : intermédiaires et exécutable. L'exe se régénère avec
+# `cd installer && python build_exe.py` ; il est publié en Release, pas ici.
+installer/build/
+installer/dist/
+
+# État des lots de l'API Batch (identifiants de jobs, sans intérêt hors run)
+batch_state.json
+
+# Sauvegardes de fix_terms.py
+*.bak
+
+# Captures du canal OutputDebugString : elles contiennent surtout la sortie
+# d'autres processus de la machine, et les chemins locaux de l'utilisateur.
+debug/logs/
+*.log
+
+# ---------------------------------------------------------------------------
+# Exception : l'exe distribué est suivi à la racine
+#
+# installer/dist/ est ignoré (artefact de compilation), mais la copie à la
+# racine, Patch_FR_SteinsGate_ReBoot.exe, est suivie volontairement : c'est le
+# lien de téléchargement historique du dépôt. Il est aussi attaché à chaque
+# Release. Le régénérer : cd installer && python build_exe.py
+# ---------------------------------------------------------------------------

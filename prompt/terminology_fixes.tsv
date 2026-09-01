@@ -1,0 +1,24 @@
+# Corrections terminologiques déterministes — appliquées dans l'ordre du fichier.
+# Colonnes (séparées par TABULATION) : kind	pattern	replacement	note
+#
+# Principe (retour utilisateur, 2026-08-20) : on ne traduit pas les noms propres.
+# « Steins Gate » est le titre du jeu ET la ligne d'univers recherchée — le japonais
+# écrit 運命石の扉 mais le FAIT LIRE シュタインズゲート. Le nom prononcé prime.
+#
+# ATTENTION : « micro-ondes » seul (29 occurrences) désigne de vrais fours.
+# Ne cibler que « micro-ondes téléphonique ».
+regex	\[Steins Gate,\d+\]\s*(?:[Ll]a |[Ll]['’])?Porte de Pierre du Destin	Steins Gate	rubis → nom propre
+regex	(?:[Ll]a |[Ll]['’])?Porte de Pierre du Destin	Steins Gate	occurrences hors rubis
+regex	\[event horizon,\d+\]\s*(horizon des événements)	\1	rubis redondant (même terme 2x)
+regex	\[Divergence,\d+\]\s*(taux de divergence)	\1	rubis redondant
+regex	\[Index,\d+\]\s*(Index Librorum)	\1	rubis redondant
+
+# U+1D49 (e en exposant) n'existe dans AUCUNE police de dialogue du jeu
+# (ni hiragino_pro_w6, ni les Source Han) : il s'affiche en case vide.
+# Verifie le 2026-08-31 sur la table cmap des 10 polices livrees.
+literal	ᵉ	e	glyphe absent des polices du jeu
+
+# Rubis dont la portee deborde sur la balise <tips> qui l'entoure.
+# N = nombre de caracteres couverts - 1 : « guerre sainte finale » = 20 -> 19.
+# A 22 la portee mordait sur « > c », hors de la balise.
+literal	[Ragnarök,22]guerre sainte finale	[Ragnarök,19]guerre sainte finale	portee de rubis hors bornes
