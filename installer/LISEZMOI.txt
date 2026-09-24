@@ -33,6 +33,9 @@ DÉSINSTALLATION
 Bouton « Restaurer l'original » : les fichiers d'origine sont remis en place.
 Ils sont conservés dans wind3d11data\_fr_backup — ne supprimez pas ce dossier.
 
+Si le jeu a été mis à jour depuis l'installation, le bouton est désactivé :
+la sauvegarde date de l'ancienne version. Utilisez alors Steam (ci-dessous).
+
 En cas de problème, Steam sait tout réparer :
 clic droit sur le jeu > Propriétés > Fichiers installés > Vérifier l'intégrité.
 

@@ -4,6 +4,23 @@ Aucune entrée de ce fichier ne dévoile d'élément de l'histoire.
 
 ---
 
+## Prochaine version — non publiée
+
+Installeur plus sûr. La traduction ne change pas.
+
+- **« Restaurer l'original » ne peut plus abîmer le jeu.** Après une mise à
+  jour du jeu, la sauvegarde date de l'ancienne version : le bouton est alors
+  désactivé, et l'installeur propose de réinstaller le patch.
+- **Plus de jeu à moitié patché.** Les deux fichiers modifiés sont écrits en
+  entier avant d'être mis en place, ensemble. Fermer la fenêtre pendant
+  l'installation l'arrête proprement.
+- **Message clair si l'écriture est refusée** (jeu ouvert, droits
+  insuffisants), au lieu d'une « Erreur inattendue ».
+- Petites corrections d'affichage dans la fenêtre (accents, couleur d'un
+  bouton).
+
+---
+
 ## 1.1 — 1er septembre 2026
 
 Correction d'un plantage bloquant. **Si vous avez la 1.0, mettez à jour.**

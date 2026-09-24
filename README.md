@@ -41,7 +41,8 @@ cinq paires de termes Tips et déplace du contenu d'une réplique à l'autre.
 
 Le bouton **« Restaurer l'original »** remet tout en place. Vos fichiers
 d'origine sont conservés dans `wind3d11data\_fr_backup` — ne supprimez pas ce
-dossier.
+dossier. Si le jeu a été mis à jour depuis l'installation, le bouton est
+désactivé (la sauvegarde date de l'ancienne version) : passez par Steam.
 
 En cas de pépin, Steam sait tout réparer :
 *clic droit sur le jeu → Propriétés → Fichiers installés → Vérifier l'intégrité*.

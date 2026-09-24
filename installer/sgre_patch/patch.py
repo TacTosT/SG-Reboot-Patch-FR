@@ -16,6 +16,7 @@ needed. Play with the game set to English and the text is French.
     a re-encoded index parses identically but the engine chokes on it.
 """
 import collections
+import contextlib
 import hashlib
 import json
 import os
@@ -30,6 +31,13 @@ from .psb_write import rebuild_strings
 TARGETS = ("scenario_info.psb.m", "scenario_body.bin")
 BACKUP_DIRNAME = "_fr_backup"
 STAMP = "patch_fr.json"
+
+STEAM_VERIFY = ("Steam > clic droit sur le jeu > Propriétés > "
+                "Fichiers installés > Vérifier l'intégrité des fichiers.")
+NEED_ADMIN = ("Impossible d'écrire dans le dossier du jeu.\n\n"
+              "Fermez le jeu s'il est ouvert. Sinon, relancez ce programme en "
+              "tant qu'administrateur (clic droit > Exécuter en tant "
+              "qu'administrateur).")
 
 
 class PatchError(Exception):
@@ -240,7 +248,7 @@ def build(src_dir, fr_path, progress=None, should_stop=None):
         tick(0.05 + 0.9 * (n + 1) / len(order),
              "Traduction des scénarios... {}/{}".format(n + 1, len(order)))
 
-    tick(0.96, "Mise a jour de l'index...")
+    tick(0.96, "Mise à jour de l'index...")
     # The offsets and lengths are poked in place, never re-encoded. Our encoder
     # picks the minimum byte width per integer; the game's writer pads many of
     # them one byte wider. A re-encoded index parses identically and still
@@ -251,8 +259,8 @@ def build(src_dir, fr_path, progress=None, should_stop=None):
     for entry, (off_ref, len_ref) in idx.root["file_info"].items():
         want = new_info[entry]
         if not (off_ref.poke(buf, want[0]) and len_ref.poke(buf, want[1])):
-            raise PatchError("L'archive depasse ce que son index peut adresser. "
-                             "Rien n'a ete ecrit.")
+            raise PatchError("L'archive dépasse ce que son index peut adresser. "
+                             "Rien n'a été écrit.")
     new_index = bytes(buf)
 
     # Prove the patched index still parses and points where we think it does.
@@ -295,100 +303,167 @@ def status(game_dir, fr_path=None):
                                                       "scenario_body.bin")) else "unknown"
 
 
+def _check_writable(game_dir):
+    # Only catches a read-only folder on Windows, not missing permissions:
+    # `_writing` below handles those when the write is actually refused.
+    if not os.access(game_dir, os.W_OK):
+        raise PatchError(NEED_ADMIN)
+
+
+@contextlib.contextmanager
+def _writing():
+    """Turn a refused write into a message the player can act on."""
+    try:
+        yield
+    except PermissionError:
+        raise PatchError(NEED_ADMIN) from None
+
+
+def _backup_ok(game_dir):
+    """True if the backup holds the originals of the files now on disk.
+
+    False after a game update (the backup is last version's) or if the backup
+    no longer matches the hash noted when it was made.
+    """
+    if not has_backup(game_dir) or status(game_dir) == "unknown":
+        return False
+    stamp = read_stamp(game_dir)
+    return not stamp or stamp.get("original_sha") == sha256(
+        os.path.join(backup_dir(game_dir), "scenario_body.bin"))
+
+
+def _save_backup(game_dir, say):
+    """Copy the live files into the backup, each one verified before it lands."""
+    bdir = backup_dir(game_dir)
+    os.makedirs(bdir, exist_ok=True)
+    for t in TARGETS:
+        source = os.path.join(game_dir, t)
+        tmp = os.path.join(bdir, t + ".fr_tmp")
+        shutil.copyfile(source, tmp)
+        if sha256(source) != sha256(tmp):
+            os.remove(tmp)
+            raise PatchError("La sauvegarde de " + t + " a échoué. Rien n'a été modifié.")
+        os.replace(tmp, os.path.join(bdir, t))
+        say("Sauvegarde : " + t)
+
+
+def _write_stamp(game_dir, data):
+    path = os.path.join(backup_dir(game_dir), STAMP)
+    with open(path + ".fr_tmp", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    os.replace(path + ".fr_tmp", path)
+
+
+def _replace_together(game_dir, files, say):
+    """Put body and index in place as one step, as far as the disk allows.
+
+    The two files only make sense as a pair: a French body with the original
+    index (or the reverse) is a broken game. So every new file is written in
+    full next to its target first, and only then are they renamed into place,
+    back to back. A crash while writing leaves the game untouched.
+
+    `files` is a list of (target name, bytes or path of a file to copy).
+    """
+    tmps = []
+    try:
+        for target, content in files:
+            tmp = os.path.join(game_dir, target + ".fr_tmp")
+            tmps.append(tmp)
+            if isinstance(content, bytes):
+                with open(tmp, "wb") as f:
+                    f.write(content)
+            else:
+                shutil.copyfile(content, tmp)
+        for (target, _), tmp in zip(files, tmps):
+            os.replace(tmp, os.path.join(game_dir, target))
+            say("Écrit : " + target)
+    finally:
+        for tmp in tmps:
+            try:
+                os.remove(tmp)
+            except OSError:
+                pass
+
+
 def install(game_dir, fr_path, progress=None, should_stop=None, log=None):
     """Patch the game. Idempotent: re-running rebuilds from the backup."""
     def say(msg):
         if log:
             log(msg)
 
-    if not os.access(game_dir, os.W_OK):
-        raise PatchError(
-            "Le dossier du jeu est protégé en écriture.\n"
-            "Relancez ce programme en tant qu'administrateur "
-            "(clic droit > Exécuter en tant qu'administrateur).")
-
-    bdir = backup_dir(game_dir)
+    _check_writable(game_dir)
     current_body = os.path.join(game_dir, "scenario_body.bin")
 
     # Is the existing backup still the original of *these* game files? If the
     # game was updated under us, the old backup holds last version's scenarios
     # and rebuilding from it would quietly reinstate them.
-    fresh_backup = False
-    if has_backup(game_dir):
-        stamp = read_stamp(game_dir)
-        cur = sha256(current_body)
-        if stamp and cur in (stamp.get("patched_sha"), stamp.get("original_sha")):
-            fresh_backup = True
-        elif not stamp:
-            fresh_backup = same_file(current_body,
-                                     os.path.join(bdir, "scenario_body.bin"))
-        if not fresh_backup:
-            say("Les fichiers du jeu ont changé depuis la dernière sauvegarde "
-                "(mise à jour du jeu ?) : une nouvelle sauvegarde va être faite.")
-
-    src = bdir if fresh_backup else game_dir
+    fresh_backup = _backup_ok(game_dir)
     if fresh_backup:
         say("Sauvegarde d'origine trouvée : reconstruction à partir des fichiers d'origine.")
+    elif has_backup(game_dir):
+        say("Les fichiers du jeu ont changé depuis la dernière sauvegarde "
+            "(mise à jour du jeu ?) : une nouvelle sauvegarde va être faite.")
 
+    src = backup_dir(game_dir) if fresh_backup else game_dir
     body, index, stats = build(src, fr_path, progress, should_stop)
 
-    if not fresh_backup:
-        # Building from the live files and getting them back unchanged means
-        # they are already French - so there is no original here to save.
-        if (os.path.getsize(current_body) == len(body)
-                and sha256(current_body) == hashlib.sha256(body).hexdigest()):
-            raise PatchError(
-                "Le patch est déjà installé sur cette copie du jeu, mais aucune "
-                "sauvegarde utilisable des fichiers d'origine n'a été trouvée.\n\n"
-                "Pour revenir à l'anglais : Steam > clic droit sur le jeu > "
-                "Propriétés > Fichiers installés > Vérifier l'intégrité.")
-        os.makedirs(bdir, exist_ok=True)
-        for t in TARGETS:
-            source = os.path.join(game_dir, t)
-            dest = os.path.join(bdir, t)
-            shutil.copy2(source, dest)
-            if sha256(source) != sha256(dest):
-                raise PatchError(
-                    "La sauvegarde de " + t + " ne correspond pas à l'original. "
-                    "Rien n'a été modifié.")
-            say("Sauvegarde : " + t)
+    # Building from the live files and getting them back unchanged means they
+    # are already French - so there is no original here to save.
+    if not fresh_backup and (os.path.getsize(current_body) == len(body)
+                             and sha256(current_body) == hashlib.sha256(body).hexdigest()):
+        raise PatchError(
+            "Le patch est déjà installé sur cette copie du jeu, mais aucune "
+            "sauvegarde utilisable des fichiers d'origine n'a été trouvée.\n\n"
+            "Pour revenir à l'anglais : " + STEAM_VERIFY)
 
-    # Write to a temp file first, then swap: a crash mid-write cannot leave a
-    # half-written body.bin behind.
-    for target, data in (("scenario_body.bin", body), ("scenario_info.psb.m", index)):
-        final = os.path.join(game_dir, target)
-        tmp = final + ".fr_tmp"
-        with open(tmp, "wb") as f:
-            f.write(data)
-        os.replace(tmp, final)
-        say("Écrit : " + target)
-
-    with open(os.path.join(bdir, STAMP), "w", encoding="utf-8") as f:
-        json.dump({
+    with _writing():
+        if not fresh_backup:
+            _save_backup(game_dir, say)
+        # The stamp goes down *before* the swap. Stopped before it, the files
+        # on disk still match `original_sha` and read as untouched; after it,
+        # they match `patched_sha`. The status is right either way.
+        _write_stamp(game_dir, {
             "patch": "STEINS;GATE RE:BOOT — traduction française",
             "installed": time.strftime("%Y-%m-%d %H:%M:%S"),
             "lines": stats["lines"],
             "patched_sha": hashlib.sha256(body).hexdigest(),
-            "original_sha": sha256(os.path.join(bdir, "scenario_body.bin")),
-        }, f, indent=2)
+            "original_sha": sha256(os.path.join(backup_dir(game_dir), "scenario_body.bin")),
+        })
+        _replace_together(game_dir, [("scenario_body.bin", body),
+                                     ("scenario_info.psb.m", index)], say)
     return stats
 
 
 def uninstall(game_dir, log=None):
-    bdir = backup_dir(game_dir)
-    if not has_backup(game_dir):
-        raise PatchError(
-            "Aucune sauvegarde trouvée dans ce dossier.\n\n"
-            "Pour restaurer le jeu : Steam > clic droit sur le jeu > Propriétés > "
-            "Fichiers installés > Vérifier l'intégrité des fichiers.")
-    if not os.access(game_dir, os.W_OK):
-        raise PatchError(
-            "Le dossier du jeu est protégé en écriture.\n"
-            "Relancez ce programme en tant qu'administrateur.")
-    for t in TARGETS:
-        shutil.copy2(os.path.join(bdir, t), os.path.join(game_dir, t))
+    """Put the original files back - only if they really are the originals.
+
+    The backup is only restored over files this patch wrote. After a game
+    update it holds last version's scenarios, and restoring it would mix two
+    versions of the game.
+    """
+    def say(msg):
         if log:
-            log("Restauré : " + t)
-    stamp = os.path.join(bdir, STAMP)
-    if os.path.exists(stamp):
-        os.remove(stamp)
+            log(msg)
+
+    if not has_backup(game_dir):
+        raise PatchError("Aucune sauvegarde trouvée dans ce dossier.\n\n"
+                         "Pour revenir à l'anglais : " + STEAM_VERIFY)
+    state = status(game_dir)
+    if state == "original":
+        raise PatchError("Le jeu est déjà en version d'origine : rien à restaurer.")
+    if state != "installed":
+        raise PatchError(
+            "Les fichiers du jeu ont changé depuis l'installation du patch "
+            "(mise à jour du jeu ?). Restaurer l'ancienne sauvegarde abîmerait "
+            "le jeu : rien n'a été modifié.\n\n"
+            "Pour revenir à l'anglais : " + STEAM_VERIFY)
+    if not _backup_ok(game_dir):
+        raise PatchError("La sauvegarde des fichiers d'origine est endommagée : "
+                         "rien n'a été modifié.\n\n"
+                         "Pour revenir à l'anglais : " + STEAM_VERIFY)
+
+    _check_writable(game_dir)
+    bdir = backup_dir(game_dir)
+    with _writing():
+        _replace_together(game_dir, [(t, os.path.join(bdir, t)) for t in TARGETS], say)
+        os.remove(os.path.join(bdir, STAMP))

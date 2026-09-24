@@ -56,10 +56,12 @@ class App(tk.Tk):
         self.events = queue.Queue()
         self.worker = None
         self.stop_flag = False
+        self.closing = False
         self.game_dir = tk.StringVar()
 
         self._build_ui()
         self._style()
+        self.protocol("WM_DELETE_WINDOW", self._close)
         self.after(60, self._pump)
         self.after(100, self._autodetect)
 
@@ -139,7 +141,7 @@ class App(tk.Tk):
               foreground=[("disabled", "#8a8474")])
         s.configure("Sec.TButton", background="#2b3040", foreground=FG,
                     font=("Segoe UI", 10), borderwidth=0, focuscolor="#2b3040")
-        s.map("Sec.TButton", background=[("active", "#39405420"), ("disabled", "#22252f")],
+        s.map("Sec.TButton", background=[("active", "#394054"), ("disabled", "#22252f")],
               foreground=[("disabled", "#565b6a")])
         s.configure("Go.Horizontal.TProgressbar", troughcolor="#101219",
                     background=ACCENT, borderwidth=0, thickness=8)
@@ -161,8 +163,8 @@ class App(tk.Tk):
         messagebox.showinfo(
             "Aide",
             "1. Le programme trouve le jeu tout seul. Sinon, cliquez sur "
-            "« Parcourir... » et choisissez le dossier "
-            "SGRE\\wind3d11data.\n\n"
+            "« Parcourir... » et choisissez le dossier SGRE "
+            "(celui qui contient sgre_steam.exe).\n\n"
             "2. Cliquez sur « Installer la traduction FR ». Les fichiers "
             "d'origine sont sauvegardés automatiquement dans "
             "wind3d11data\\_fr_backup.\n\n"
@@ -219,11 +221,13 @@ class App(tk.Tk):
             self.btn_install.configure(state="disabled")
             self.btn_restore.configure(state="disabled")
             return
+        state = patch.status(path)
         self.btn_install.configure(
             state="normal" if os.path.isfile(FR_FILE) else "disabled")
+        # Only offer to restore over files this patch wrote: after a game
+        # update the backup is last version's, and restoring it breaks the game.
         self.btn_restore.configure(
-            state="normal" if patch.has_backup(path) else "disabled")
-        state = patch.status(path)
+            state="normal" if state == "installed" else "disabled")
         if state == "installed":
             stamp = patch.read_stamp(path) or {}
             self.status.configure(
@@ -235,8 +239,8 @@ class App(tk.Tk):
                 fg=MUTED)
         else:
             self.status.configure(
-                text="État inconnu (jeu mis à jour ?). Réinstaller le patch "
-                     "corrigera.", fg=ACCENT)
+                text="Le jeu a changé depuis l'installation (mise à jour ?) — "
+                     "réinstallez le patch.", fg=ACCENT)
 
     # ------------------------------------------------------------ background
 
@@ -277,11 +281,38 @@ class App(tk.Tk):
                     self.step.configure(text=message)
                 elif kind == "done":
                     self._finish(*payload)
+                    if self.closing:
+                        return              # window destroyed: stop pumping
         except queue.Empty:
             pass
         self.after(60, self._pump)
 
+    def _close(self):
+        """Never let the window die mid-write: that could leave half a patch.
+
+        While the patch is still being built nothing is written yet, so the
+        build is cancelled; once writing has started, the window waits for it
+        to finish (a few seconds) and closes on its own.
+        """
+        if not (self.worker and self.worker.is_alive()):
+            self.destroy()
+            return
+        if self.closing:
+            return
+        if messagebox.askyesno(
+                "Opération en cours",
+                "Une opération est en cours.\n\n"
+                "Fermer quand même ? Elle sera arrêtée proprement : le jeu ne "
+                "restera pas à moitié modifié.",
+                parent=self):
+            self.closing = True
+            self.stop_flag = True
+            self.step.configure(text="Arrêt en cours...")
+
     def _finish(self, outcome, message):
+        if self.closing:
+            self.destroy()
+            return
         self._busy(False)
         self._refresh_status()
         if outcome == "installed":
@@ -306,7 +337,7 @@ class App(tk.Tk):
             self.progress.configure(value=0)
             self.step.configure(text="Échec.")
             self.say(message, "bad")
-            messagebox.showerror("Echec", message, parent=self)
+            messagebox.showerror("Échec", message, parent=self)
 
     # --------------------------------------------------------------- actions
 
@@ -358,10 +389,10 @@ def cli():
         sys.exit("jeu introuvable - passez --game-dir")
     print("jeu :", game)
     if args.status:
-        print("etat :", patch.status(game))
+        print("état :", patch.status(game))
     elif args.restore:
         patch.uninstall(game, log=print)
-        print("restaure.")
+        print("restauré.")
     else:
         stats = patch.install(game, FR_FILE,
                               progress=lambda f, m: print("  %5.1f%%  %s" % (f * 100, m)),
