@@ -95,7 +95,7 @@ FR = {
     247: "la Résistance", 248: "déterminisme", 249: "Échelon",
     252: "accro à Nico", 253: "magicien", 254: "effet placebo", 255: "svp",
     257: "Big Sight", 258: "ruban de Möbius", 259: "OOPArt", 260: "ça sert à qui ?",
-    261: "hahaha", 262: "Stand", 263: "sourire du chat du Cheshire",
+    261: "hahaha", 262: "Stand", 263: "Cheshire Break",
     264: "explosion de poussières", 265: "normie", 266: "bien vu celle-là",
     267: "Rose-Croix", 268: "alchimie", 269: "résumé en 3 lignes",
     270: "Isaac Newton", 271: "Miko Miko Overdrive", 272: "seks",

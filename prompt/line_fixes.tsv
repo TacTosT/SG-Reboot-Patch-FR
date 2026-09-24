@@ -7,7 +7,8 @@
 # rubis (même principe que Steins Gate). Il remplace les 15 variantes
 # (masseuse, acupressiste, shiatsuka, maître du shiatsu…), dont 5 rubis
 # qui affichaient l'article en double et 6 lignes au masculin.
-# Même passe : Stardust Handshake, Ragnarök et Opération Urd harmonisés.
+# Même principe pour tous les noms chuuni d'Okabe (Ragnarök, The Zombie,
+# Stardust Handshake, Cheshire Break…) : le nom d'origine, partout.
 resg01_09.ks:*start:105	Son pouvoir s’appelle sans doute la « [Shining Finger,21]la Masseuse fulgurante ».	Son pouvoir s’appelle sans doute « Shining Finger ».
 resg01_09.ks:*start:145	« La Masseuse Fulgurante » s’est apparemment contentée de l’échange d’adresses : elle a filé sans un mot.	« Shining Finger » s’est apparemment contentée de l’échange d’adresses : elle a filé sans un mot.
 resg01_10.ks:*dummy4:47	À force de me battre avec un maître du shiatsu et une fille-chat, j’ai failli oublier mon objectif initial.	À force de me battre avec Shining Finger et une fille-chat, j’ai failli oublier mon objectif initial.
@@ -18,8 +19,8 @@ resg02_01.ks:*dummy1:4	Vu sa dextérité au clavier, j’aurais dû me douter qu
 resg02_02.ks:*dummy3:1	Ces derniers temps, la sonnerie de mes messages me flanque la nausée.\nÇa doit encore être cette accro aux mails, la maîtresse du shiatsu.	Ces derniers temps, la sonnerie de mes messages me flanque la nausée.\nÇa doit encore être cette accro aux mails, Shining Finger.
 resg02_02.ks:*dummy4:52	Ça m’étonnerait. Cette masseuse n’avait pas l’air de savoir quelles fonctions l’IBN 5100 embarquait.	Ça m’étonnerait. Shining Finger n’avait pas l’air de savoir quelles fonctions l’IBN 5100 embarquait.
 resg02_02.ks:*dummy4:7	J’ouvre le message de la maîtresse du shiatsu.\nVoici ce qui était écrit.	J’ouvre le message de Shining Finger.\nVoici ce qui était écrit.
-resg02_06.ks:*010:19	Je l’ai baptisée de mon propre chef « [Stardust Handshake,42]la poignée de main aux poussières d’étoiles ».	Je l’ai baptisée de mon propre chef « [Stardust Handshake,39]poignée de main aux poussières d’étoiles ».
-resg02_06.ks:*dummy5:16	[Ragnarök,22]La guerre sainte finale, c’est moi qui la déclencherai. Pour refaçonner ce monde !	La [Ragnarök,19]guerre sainte finale, c’est moi qui la déclencherai. Pour refaçonner ce monde !
+resg02_06.ks:*010:19	Je l’ai baptisée de mon propre chef « [Stardust Handshake,42]la poignée de main aux poussières d’étoiles ».	Je l’ai baptisée de mon propre chef « Stardust Handshake ».
+resg02_06.ks:*dummy5:16	[Ragnarök,22]La guerre sainte finale, c’est moi qui la déclencherai. Pour refaçonner ce monde !	Le Ragnarök, c’est moi qui le déclencherai. Pour refaçonner ce monde !
 resg02_07.ks:*010:0	Le message de la masseuse commence par des excuses, puis :\n« Je jure de ne plus envoyer de messages courts, alors ne m’abandonne pas. J’aimerais qu’on cherche l’IBN 5100 ensemble. »	Le message de Shining Finger commence par des excuses, puis :\n« Je jure de ne plus envoyer de messages courts, alors ne m’abandonne pas. J’aimerais qu’on cherche l’IBN 5100 ensemble. »
 resg02_07.ks:*dummy6:0	Le message de la spécialiste du shiatsu disait : « Donne-moi les coordonnées du super hackeur~♪ »	Le message de Shining Finger disait : « Donne-moi les coordonnées du super hackeur~♪ »
 resg02_07.ks:*dummy7:1	Maudite masseuse. Je lui avais dit d’arrêter d’envoyer des messages en rafale, elle n’a toujours pas compris ?	Maudite Shining Finger. Je lui avais dit d’arrêter d’envoyer des messages en rafale, elle n’a toujours pas compris ?
@@ -46,7 +47,7 @@ resg02_17.ks:*dummy11:0	Et en plus, l’acupressiste exige que je réponde, et �
 resg02_17.ks:*dummy11:3	Et la fin du mail suivant de l’acupressiste disait ceci.	Et la fin du mail suivant de Shining Finger disait ceci.
 resg02_17.ks:*dummy4:0	Le message de l’acupressiste disait : « Quelle marchandise ? Pas l’IBN 5100 quand même ? Cède-la-moi !!! »	Le message de Shining Finger disait : « Quelle marchandise ? Pas l’IBN 5100 quand même ? Cède-la-moi !!! »
 resg02_17.ks:*dummy6:0	Le message du maître du shiatsu ne disait qu’une chose : « Prête-le-moi !!! »	Le message de Shining Finger ne disait qu’une chose : « Prête-le-moi !!! »
-resg03_02.ks:*dummy2:34	Quoi qu’il en soit, le [Ragnarök,19]guerre sainte finale entre notre labo et le SERN est désormais inévitable	Quoi qu’il en soit, la [Ragnarök,19]guerre sainte finale entre notre labo et le SERN est désormais inévitable
+resg03_02.ks:*dummy2:34	Quoi qu’il en soit, le [Ragnarök,19]guerre sainte finale entre notre labo et le SERN est désormais inévitable	Quoi qu’il en soit, le Ragnarök entre notre labo et le SERN est désormais inévitable
 resg03_07.ks:*dummy11:0	Le message de la masseuse par pression digitale dit : « Je peux prendre une photo ? »	Le message de Shining Finger dit : « Je peux prendre une photo ? »
 resg03_07.ks:*dummy3:0	Le message du maître du shiatsu disait ceci.	Le message de Shining Finger disait ceci.
 resg03_07.ks:*dummy6:2	Ou alors est-ce là le revers du pouvoir de l’« [Shining Finger,23]acupressiste de l’éclair »… !	Ou alors est-ce là le revers du pouvoir de « Shining Finger »… !
@@ -82,7 +83,7 @@ resg04_05.ks:*dummy8:0	Le message de la masseuse disait : « Tu peux me montrer 
 resg04_05.ks:*dummy8:17	Des doigts à toute vitesse. La [Shining Finger,19]Masseuse de l’Éclair dans son élément.	Des doigts à toute vitesse. Shining Finger dans son élément.
 resg04_05.ks:*dummy8:6	Le message de la masseuse disait : « Laisse tomber l’historique. Je ferai comme tu dis, je ne le cacherai pas. »	Le message de Shining Finger disait : « Laisse tomber l’historique. Je ferai comme tu dis, je ne le cacherai pas. »
 resg04_06.ks:*dummy1:2	La réponse de la masseuse dit : « Un souci ? Je suis un peu occupée là. Désolée. Je te renvoie un mail plus tard. »	La réponse de Shining Finger dit : « Un souci ? Je suis un peu occupée là. Désolée. Je te renvoie un mail plus tard. »
-resg04_07.ks:*start:20	Ou plutôt, son tic habituel%p-1;─%p;─ la « [Stardust Handshake,26]poignée de main aux étoiles » venait de s’enclencher.	Ou plutôt, son tic habituel%p-1;─%p;─ la « [Stardust Handshake,39]poignée de main aux poussières d’étoiles » venait de s’enclencher.
+resg04_07.ks:*start:20	Ou plutôt, son tic habituel%p-1;─%p;─ la « [Stardust Handshake,26]poignée de main aux étoiles » venait de s’enclencher.	Ou plutôt, son tic habituel%p-1;─%p;─ le « Stardust Handshake » venait de s’enclencher.
 resg05_07.ks:*dummy2:0	Le message de la masseuse dit : « Où en est la machine à voyager dans le temps ? »	Le message de Shining Finger dit : « Où en est la machine à voyager dans le temps ? »
 resg05_07.ks:*dummy2:6	Message de la masseuse : « C’est quoi, un time leap ? Raconte-moi tout ! »	Message de Shining Finger : « C’est quoi, un time leap ? Raconte-moi tout ! »
 resg05_07.ks:*dummy4:11	Le mail de la masseuse disait : « C’est quoi, un time leap ?! »	Le mail de Shining Finger disait : « C’est quoi, un time leap ?! »
@@ -90,16 +91,50 @@ resg05_07.ks:*dummy6:8	Le mail de la masseuse débordait d’éloges, suivies d�
 resg05_07.ks:*from_resg05_06:13	Décidément, cette [Shining Finger,22]la masseuse de l’éclair est difficile à manier.	Décidément, Shining Finger est difficile à manier.
 resg05_07.ks:*from_resg05_06:15	Masseuse, là-bas ! Quelle mine sombre affichez-vous donc !	Shining Finger, là-bas ! Quelle mine sombre affichez-vous donc !
 resg06_08.ks:*dummy4:1	Le message de la masseuse dit : « J’ai à te parler. J’arrive. »	Le message de Shining Finger dit : « J’ai à te parler. J’arrive. »
-resg08_13r.ks:*dummy2:145	[Stardust Handshake,29]la poignée de main aux étoiles.	La [Stardust Handshake,39]poignée de main aux poussières d’étoiles.
+resg08_13r.ks:*dummy2:145	[Stardust Handshake,29]la poignée de main aux étoiles.	Stardust Handshake.
 resg09_10.ks:*dummy2:0	Le message de la masseuse dit : « Je n’ai plus besoin de l’IBN 5100 pour l’instant. »	Le message de Shining Finger dit : « Je n’ai plus besoin de l’IBN 5100 pour l’instant. »
 resg09_10.ks:*dummy2:5	Le message de la masseuse dit : « Mon supérieur m’a ordonné d’arrêter. »	Le message de Shining Finger dit : « Mon supérieur m’a ordonné d’arrêter. »
 resg09_10.ks:*dummy2:8	Le message de la masseuse dit : « Comment tu connais FB ? D’où tu sors ça ? »	Le message de Shining Finger dit : « Comment tu connais FB ? D’où tu sors ça ? »
 resg09_11.ks:*dummy2:0	Le message de la shiatsuki disait : « J’ai plus besoin de l’IBN 5100 pour l’instant. »	Le message de Shining Finger disait : « J’ai plus besoin de l’IBN 5100 pour l’instant. »
 resg09_11.ks:*dummy2:2	Le message de la shiatsuki disait : « Mon supérieur m’a dit d’arrêter. »	Le message de Shining Finger disait : « Mon supérieur m’a dit d’arrêter. »
 resg09_11.ks:*dummy2:5	Le message de la shiatsuki disait : « Comment tu connais FB ? Où tu as eu cette info ? »	Le message de Shining Finger disait : « Comment tu connais FB ? Où tu as eu cette info ? »
-resg09_12.ks:*dummy2:24	L’heure est venue de clore ce long combat ! Autrement dit, [Ragnarök,22]la Guerre sainte finale commence !	L’heure est venue de clore ce long combat ! Autrement dit, la [Ragnarök,19]guerre sainte finale commence !
-resg10_01.ks:*merge:186	[Stardust Handshake,31]Poignée de main avec les étoiles.	[Stardust Handshake,39]Poignée de main aux poussières d’étoiles.
-resg10_11k.ks:*start:52	Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte ultime !	Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte finale !
+resg09_12.ks:*dummy2:24	L’heure est venue de clore ce long combat ! Autrement dit, [Ragnarök,22]la Guerre sainte finale commence !	L’heure est venue de clore ce long combat ! Autrement dit, le Ragnarök commence !
+resg10_01.ks:*merge:186	[Stardust Handshake,31]Poignée de main avec les étoiles.	Stardust Handshake.
+resg10_11k.ks:*start:52	Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte ultime !	Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout le Ragnarök !
 resg11_08.ks:*from_resg11_07:82	Inutile, la shiatsuka et moi nous connaissons déjà.	Inutile, Shining Finger et moi nous connaissons déjà.
 resg11_08.ks:*from_resg11_07:83	Shiatsuka ? C’est qui, ça ?	Shining Finger ? C’est qui, ça ?
 resg11_08.ks:*from_resg11_07:84	[Shining Finger,23]la shiatsuka de l’éclair. C’est le nom de son pouvoir.	Shining Finger. C’est le nom de son pouvoir.
+resg02_06.ks:*dummy5:10	À l’aube de la <tips,148,[Ragnarök,19]guerre sainte finale> contre SERN, nous combattrons côte à côte	À l’aube du <tips,148,Ragnarök> contre SERN, nous combattrons côte à côte
+resg02_07.ks:*start:4	L’issue de la guerre sainte est en jeu ; je sais bien que ce n’est pas le moment de faire le difficile.	L’issue du Ragnarök est en jeu ; je sais bien que ce n’est pas le moment de faire le difficile.
+resg03_08.ks:*dummy2:26	Autrement dit, quand la [Ragnarök,19]guerre sainte finale contre le SERN sera terminée, et le destin du monde scellé.	Autrement dit, quand le Ragnarök contre le SERN sera terminé, et le destin du monde scellé.
+resg03_08.ks:*dummy2:27	Et que la [Ragnarök,19]guerre sainte finale s’achève en victoire ou en défaite, à ce moment-là, la vie de Hououin Kyouma sera déjà%p-1;─%p;─	Et que le Ragnarök s’achève en victoire ou en défaite, à ce moment-là, la vie de Hououin Kyouma sera déjà%p-1;─%p;─
+resg03_08.ks:*dummy4:12	… Hmph, n’ayez crainte. L’enfer attendra la fin de la guerre sainte	… Hmph, n’ayez crainte. L’enfer attendra la fin du Ragnarök
+resg03_10.ks:*dummy15:33	…Exact. Tel est mon choix, et c’est en même temps celui de la Steins Gate. La guerre sainte approche	…Exact. Tel est mon choix, et c’est en même temps celui de la Steins Gate. Le Ragnarök approche
+resg04_25.ks:*dummy2:24	Vous devrez combattre comme mon pion lors de la [Ragnarök,19]guerre sainte finale. Je n’autoriserai aucune initiative personnelle.	Vous devrez combattre comme mon pion lors du Ragnarök. Je n’autoriserai aucune initiative personnelle.
+resg05_07.ks:*dummy8:5	Le rideau se lèvera enfin sur la [Ragnarök,19]guerre sainte finale contre l’« Organisation », maîtresse du monde depuis l’ombre… !	Le rideau se lèvera enfin sur le Ragnarök contre l’« Organisation », maîtresse du monde depuis l’ombre… !
+resg05_15.ks:*dummy2:70	Guerrière à temps partiel, celle que vous devez combattre lors de la [Ragnarök,19]guerre sainte finale, c’est SERN	Guerrière à temps partiel, celle que vous devez combattre lors du Ragnarök, c’est SERN
+resg10_08m.ks:*start:52	Nul complot n’a fait fléchir ma personne : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte finale !	Nul complot n’a fait fléchir ma personne : fidèle à ma conviction, j’ai mené jusqu’au bout le Ragnarök !
+resg10_12k.ks:*from_resg10_11k:36	En cet instant, l’issue de la [Ragnarök,19]guerre sainte finale est scellée !	En cet instant, l’issue du Ragnarök est scellée !
+resg11_06.ks:*wsl:15	Voici ma dernière guerre sainte.	Voici mon dernier Ragnarök.
+resg01_13.ks:*dummy4:11	Une telle gourmandise trahit l’enfant, ô ressuscitée.	Une telle gourmandise trahit l’enfant, The Zombie.
+resg01_13.ks:*dummy4:85	Sois la bienvenue, Christina. Ou plutôt, [The Zombie,10]Ressuscitée.	Sois la bienvenue, Christina. Ou plutôt, The Zombie.
+resg01_13.ks:*start:7	Et connue aussi sous le nom de « [The Zombie,13]la Ressuscitée »…	Et connue aussi sous le nom de « The Zombie »…
+resg03_13.ks:*dummy8:13	Si vous tenez tant à rester, ayez l’obligeance de vous taire, [The Zombie,10]Ressuscitée.	Si vous tenez tant à rester, ayez l’obligeance de vous taire, The Zombie.
+resg04_01.ks:*merge1:10	Tu es tenace. On ne t’appelle pas le Zombie pour rien, hein ?	Tu es tenace. On ne t’appelle pas The Zombie pour rien, hein ?
+resg05_09.ks:*dummy1:2	Ne parle pas de mon labo comme d’une usine à eaux usées, ô [The Zombie,10]ressuscitée.	Ne parle pas de mon labo comme d’une usine à eaux usées, The Zombie.
+resg01_12.ks:*012:40	Activez immédiatement la requête d’urgence n°666, « [Cooling Off,17]Scellement Glacial » !	Activez immédiatement la requête d’urgence n°666, « Cooling Off » !
+resg02_02.ks:*dummy1:2	C’est l’un de mes pouvoirs… « [Coloring Gentleman,33]Lire sur les visages, art d’adulte » qui a réagi.	C’est l’un de mes pouvoirs… « Coloring Gentleman » qui a réagi.
+resg02_02.ks:*dummy4:40	Pouvoir nommé « [Size Hang,13]question piège »…… Je puis lire au plus profond de votre cœur.	Pouvoir nommé « Size Hang »…… Je puis lire au plus profond de votre cœur.
+resg02_06.ks:*dummy5:21	Histoire de bâtir la grande armée aux ordres directs de Hououin Kyouma : les « [Phoenix Crusaders,16]Croisés du Phénix ».	Histoire de bâtir la grande armée aux ordres directs de Hououin Kyouma : les « Phoenix Crusaders ».
+resg03_02.ks:*dummy2:94	[Nostalgia Drive,39]le voyage nostalgique à travers le temps	Nostalgia Drive
+resg03_08.ks:*dummy2:48	Euh, Moeka, cet homme est [My Favorite Right Arm,26]mon bras droit de confiance, le super hackeur Daru%p-1;─%p;─	Euh, Moeka, cet homme est My Favorite Right Arm, le super hackeur Daru%p-1;─%p;─
+resg03_09.ks:*dummy4:42	Cesse ces appellations sans grâce. Cette version améliorée s’appellera « [Heavenly Merry-Go-Round,31]le manège qui atteint le paradis »	Cesse ces appellations sans grâce. Cette version améliorée s’appellera « Heavenly Merry-Go-Round »
+resg03_10.ks:*dummy6:4	Aussi mettrai-je de côté, pour l’heure, mon ambition%p-1;─%p;─le [Project Chaotic,20]Plan de chaos mondial.	Aussi mettrai-je de côté, pour l’heure, mon ambition%p-1;─%p;─le Project Chaotic.
+resg03_10.ks:*dummy6:5	[Project Chaotic,20]Plan de chaos mondial… ?	Project Chaotic… ?
+resg04_17.ks:*dummy7:27	Si vous désirez rejoindre les Labomem, selon le code transmis depuis l’antiquité en [High Ancient Word,20]langue archi-ancienne%p-1;─%p;─	Si vous désirez rejoindre les Labomem, selon le code transmis depuis l’antiquité en High Ancient Word%p-1;─%p;─
+resg10_06m.ks:*start:86	Tel est le plan grandiose conçu par moi, Hououin Kyouma, et son nom est « [Made in Heaven,20]Chaotisation du Monde » !	Tel est le plan grandiose conçu par moi, Hououin Kyouma, et son nom est « Made in Heaven » !
+resg07_07.ks:*dummy10:48	Nom du <tips,262,Stand> : « <tips,263,[Cheshire Break,26]sourire du chat du Cheshire> »	Nom du <tips,262,Stand> : « <tips,263,Cheshire Break> »
+resg07_12f.ks:*start:36	Serait-ce son pouvoir de lire dans les pensées d’autrui%p-1;─%p;─ euh, le [Cheshire Break,26]sourire du chat du Cheshire, c’est ça ?%p-1;─%p;─ qu’elle utilise là ?	Serait-ce son pouvoir de lire dans les pensées d’autrui%p-1;─%p;─ euh, le Cheshire Break, c’est ça ?%p-1;─%p;─ qu’elle utilise là ?
+resg09_12.ks:*dummy2:7	Dès à présent débute la phase finale de l’opération « [Opération Verthandi,29]la Déesse qui régit le présent » !	Dès à présent débute la phase finale de l’Opération Verthandi !
+resg10_08m.ks:*start:0	……Dès à présent, j’engage la phase finale de l’opération « [Verthandi,29]la Déesse qui régit le présent ».	……Dès à présent, j’engage la phase finale de l’Opération Verthandi.
+resg10_11k.ks:*start:0	……Nous entamons dès à présent la phase finale de l’opération « [Opération Verthandi,29]la Déesse qui régit le présent »	……Nous entamons dès à présent la phase finale de l’Opération Verthandi

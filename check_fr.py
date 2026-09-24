@@ -9,7 +9,8 @@ every build. It guards what has already gone wrong once:
   * typography: one apostrophe (’), no full-width ？！, no "...", no double space;
   * ruby spans: in bounds, free of markup, ending on a word boundary, and no
     article shown twice ("la « [x,N]la …" displays "la « la …");
-  * terms settled once and for all (Shining Finger, Steins Gate…);
+  * names settled once and for all: Steins Gate, and Okabe's chuuni names
+    (Shining Finger, Ragnarök…), kept as they are, never glossed in ruby;
   * the installer shipping the same file as the one checked here.
 
     python check_fr.py          # exit code 1 if anything is found
@@ -38,6 +39,13 @@ FORBIDDEN = [
     ("Shining Finger en rubis", re.compile(r"\[Shining Finger,")),
     ("Shining Finger avec article", re.compile(r"\b(?:[Ll]a|[Ll]e|[Cc]ette) Shining Finger")),
     ("Steins Gate traduit", re.compile(r"Porte de Pierre du Destin", re.I)),
+    ("nom chuuni en rubis, écrire le nom seul", re.compile(
+        r"\[(?:Ragnarök|The Zombie|Stardust Handshake|Cheshire Break|Cooling Off"
+        r"|Coloring Gentleman|Size Hang|Phoenix Crusaders|Nostalgia Drive"
+        r"|My Favorite Right Arm|Heavenly Merry-Go-Round|Project Chaotic"
+        r"|High Ancient Word|Made in Heaven|Opération \w+|Verthandi),")),
+    ("Ragnarök traduit", re.compile(r"guerre sainte", re.I)),
+    ("The Zombie traduit", re.compile(r"[Rr]essuscitée")),
 ]
 
 RUBY = re.compile(r"\[([^\]\[]*?),(\d+)\]")

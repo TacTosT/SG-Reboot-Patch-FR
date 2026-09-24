@@ -1728,7 +1728,7 @@
 {"id": "resg01_12.ks:*012:38", "fr": "À côté de moi, Daru s’affole. Je l’ignore."}
 {"id": "resg01_12.ks:*012:39", "fr": "Moi aussi j’ai le cœur qui cogne, mais je m’efforce de garder mon calme en surface."}
 {"id": "resg01_12.ks:*012:4", "fr": "Daru, qui ne savait plus quoi faire de ses mains, s’intéresse enfin à la question."}
-{"id": "resg01_12.ks:*012:40", "fr": "Activez immédiatement la requête d’urgence n°666, « [Cooling Off,17]Scellement Glacial » !"}
+{"id": "resg01_12.ks:*012:40", "fr": "Activez immédiatement la requête d’urgence n°666, « Cooling Off » !"}
 {"id": "resg01_12.ks:*012:41", "fr": "Quoi ?! L’aval du gouvernement ?!"}
 {"id": "resg01_12.ks:*012:42", "fr": "Imbécile, ce n’est pas le moment ! À ce rythme, c’est le pays entier qui saute !"}
 {"id": "resg01_12.ks:*012:43", "fr": "Après avoir hurlé ça, je range mon portable."}
@@ -1849,7 +1849,7 @@
 {"id": "resg01_13.ks:*dummy4:107", "fr": "Mais on peut refaire l’expérience une fois ? Je veux voir ça de mes propres yeux."}
 {"id": "resg01_13.ks:*dummy4:108", "fr": "Sur ces mots, sans attendre notre réponse, Kurisu détache une banane « normale » du régime."}
 {"id": "resg01_13.ks:*dummy4:109", "fr": "L’air très sérieux, elle la met dans le Phone Microwave (provisoire) et programme le minuteur depuis son propre portable, tout affairée."}
-{"id": "resg01_13.ks:*dummy4:11", "fr": "Une telle gourmandise trahit l’enfant, ô ressuscitée."}
+{"id": "resg01_13.ks:*dummy4:11", "fr": "Une telle gourmandise trahit l’enfant, The Zombie."}
 {"id": "resg01_13.ks:*dummy4:110", "fr": "Tant pis, autant jouer le jeu."}
 {"id": "resg01_13.ks:*dummy4:111", "fr": "…………"}
 {"id": "resg01_13.ks:*dummy4:112", "fr": "C’est bizarre."}
@@ -2140,7 +2140,7 @@
 {"id": "resg01_13.ks:*dummy4:82", "fr": "… Haaa. Okay. Marché conclu."}
 {"id": "resg01_13.ks:*dummy4:83", "fr": "Kukuku, voilà une bonne réponse."}
 {"id": "resg01_13.ks:*dummy4:84", "fr": "À cet instant précis, tu deviens la Labomem numéro 004."}
-{"id": "resg01_13.ks:*dummy4:85", "fr": "Sois la bienvenue, Christina. Ou plutôt, [The Zombie,10]Ressuscitée."}
+{"id": "resg01_13.ks:*dummy4:85", "fr": "Sois la bienvenue, Christina. Ou plutôt, The Zombie."}
 {"id": "resg01_13.ks:*dummy4:86", "fr": "Les deux sont faux. Appelle-moi correctement, Hououin."}
 {"id": "resg01_13.ks:*dummy4:87", "fr": "…………"}
 {"id": "resg01_13.ks:*dummy4:88", "fr": "…………"}
@@ -2213,7 +2213,7 @@
 {"id": "resg01_13.ks:*start:58", "fr": "Son regard est braqué sur les bananes posées à côté du Phone Microwave (provisoire)."}
 {"id": "resg01_13.ks:*start:59", "fr": "Kurisu approche le visage et se met à examiner les bananes sous tous les angles."}
 {"id": "resg01_13.ks:*start:6", "fr": "La sadique qui martyrise les hommes sous les yeux de tous…"}
-{"id": "resg01_13.ks:*start:7", "fr": "Et connue aussi sous le nom de « [The Zombie,13]la Ressuscitée »…"}
+{"id": "resg01_13.ks:*start:7", "fr": "Et connue aussi sous le nom de « The Zombie »…"}
 {"id": "resg01_13.ks:*start:8", "fr": "Makise Kurisu… !"}
 {"id": "resg01_13.ks:*start:9", "fr": "Nice, la <tips,116,réplique explicative>…"}
 {"id": "resg02_01.ks:*dummy1:0", "fr": "Encore un mail qui arrive sur mon portable."}
@@ -2373,7 +2373,7 @@
 {"id": "resg02_01.ks:*start:9", "fr": "Après cette expérience stupéfiante, j’étais convaincu : le Phone Microwave (provisoire) fonctionne comme une machine à voyager dans le temps."}
 {"id": "resg02_02.ks:*dummy1:0", "fr": "Hmph, croyez-vous pouvoir me tromper ? Vous mentez, n’est-ce pas ?"}
 {"id": "resg02_02.ks:*dummy1:1", "fr": "Hein ? Qu’est-ce qui te fait dire ça ?"}
-{"id": "resg02_02.ks:*dummy1:2", "fr": "C’est l’un de mes pouvoirs… « [Coloring Gentleman,33]Lire sur les visages, art d’adulte » qui a réagi."}
+{"id": "resg02_02.ks:*dummy1:2", "fr": "C’est l’un de mes pouvoirs… « Coloring Gentleman » qui a réagi."}
 {"id": "resg02_02.ks:*dummy1:3", "fr": "Des… des pouvoirs ?"}
 {"id": "resg02_02.ks:*dummy1:4", "fr": "Ce pouvoir me permet de percer les mensonges. Le menteur semble briller en rouge. Puis il meurt."}
 {"id": "resg02_02.ks:*dummy1:5", "fr": "Dis, des gens à pouvoirs comme toi, il y en a moult d’autres ?"}
@@ -2452,7 +2452,7 @@
 {"id": "resg02_02.ks:*dummy4:38", "fr": "Sérieux ? Comment tu sais ça ?! Comment, comment ?!"}
 {"id": "resg02_02.ks:*dummy4:39", "fr": "C’était un vague souvenir, mais j’ai visiblement tapé dans le mille."}
 {"id": "resg02_02.ks:*dummy4:4", "fr": "Euh, je voulais juste te demander si t’avais eu une mauvaise nouvelle."}
-{"id": "resg02_02.ks:*dummy4:40", "fr": "Pouvoir nommé « [Size Hang,13]question piège »…… Je puis lire au plus profond de votre cœur."}
+{"id": "resg02_02.ks:*dummy4:40", "fr": "Pouvoir nommé « Size Hang »…… Je puis lire au plus profond de votre cœur."}
 {"id": "resg02_02.ks:*dummy4:41", "fr": "C’est quoi ça, t’as pas le droit !"}
 {"id": "resg02_02.ks:*dummy4:42", "fr": "Rien ne m’échappe, Amane Suzuha. Résignez-vous."}
 {"id": "resg02_02.ks:*dummy4:43", "fr": "Grrr…"}
@@ -2987,7 +2987,7 @@
 {"id": "resg02_06.ks:*010:16", "fr": "Sans se soucier de ces regards, Mayuri tend lentement la main droite vers le ciel, comme envoûtée."}
 {"id": "resg02_06.ks:*010:17", "fr": "Et elle reste figée dans cette position."}
 {"id": "resg02_06.ks:*010:18", "fr": "C’est une manie de Mayuri."}
-{"id": "resg02_06.ks:*010:19", "fr": "Je l’ai baptisée de mon propre chef « [Stardust Handshake,39]poignée de main aux poussières d’étoiles »."}
+{"id": "resg02_06.ks:*010:19", "fr": "Je l’ai baptisée de mon propre chef « Stardust Handshake »."}
 {"id": "resg02_06.ks:*010:2", "fr": "Ainsi tu as décidé de participer aux recherches. Voilà un bel esprit de Labomem."}
 {"id": "resg02_06.ks:*010:20", "fr": "Depuis toujours, elle dit qu’elle aime regarder le ciel nocturne."}
 {"id": "resg02_06.ks:*010:21", "fr": "Quant à la raison pour laquelle elle tend la main, elle est romantique, ou plutôt enfantine…"}
@@ -3021,19 +3021,19 @@
 {"id": "resg02_06.ks:*dummy4:9", "fr": "Toi, essaie un peu de dire ça devant Nae. Je te tue, sans blague. C’est mon honneur de père qui est en jeu."}
 {"id": "resg02_06.ks:*dummy5:0", "fr": "Et puis franchement, une gamine qui sent encore le lait, ça m’excite pas."}
 {"id": "resg02_06.ks:*dummy5:1", "fr": "Quoi ?! Patron, retirez ce que vous venez de dire !"}
-{"id": "resg02_06.ks:*dummy5:10", "fr": "À l’aube de la <tips,148,[Ragnarök,19]guerre sainte finale> contre SERN, nous combattrons côte à côte"}
+{"id": "resg02_06.ks:*dummy5:10", "fr": "À l’aube du <tips,148,Ragnarök> contre SERN, nous combattrons côte à côte"}
 {"id": "resg02_06.ks:*dummy5:11", "fr": "D’ici là, entraînez-vous avec ardeur"}
 {"id": "resg02_06.ks:*dummy5:12", "fr": "Ragnarök ? C’est quoi, ça ?"}
 {"id": "resg02_06.ks:*dummy5:13", "fr": "Le combat final contre SERN"}
 {"id": "resg02_06.ks:*dummy5:14", "fr": "C’est prévu, un truc comme ça ? Si oui, j’en suis, mais j’en ai jamais entendu parler"}
 {"id": "resg02_06.ks:*dummy5:15", "fr": "Naturellement : je viens à l’instant de le révéler"}
-{"id": "resg02_06.ks:*dummy5:16", "fr": "La [Ragnarök,19]guerre sainte finale, c’est moi qui la déclencherai. Pour refaçonner ce monde !"}
+{"id": "resg02_06.ks:*dummy5:16", "fr": "Le Ragnarök, c’est moi qui le déclencherai. Pour refaçonner ce monde !"}
 {"id": "resg02_06.ks:*dummy5:17", "fr": "Ohhh, quel courage, Okabe Rintarou. Tu vas sûrement te planter, mais j’aime cet état d’esprit"}
 {"id": "resg02_06.ks:*dummy5:18", "fr": "J’aurais aimé que mes camarades aient autant de cran que toi"}
 {"id": "resg02_06.ks:*dummy5:19", "fr": "Il semblerait que Suzuha ait des camarades."}
 {"id": "resg02_06.ks:*dummy5:2", "fr": "Ben quoi, t’es fâchée ?"}
 {"id": "resg02_06.ks:*dummy5:20", "fr": "J’aimerais bien qu’elle me les présente."}
-{"id": "resg02_06.ks:*dummy5:21", "fr": "Histoire de bâtir la grande armée aux ordres directs de Hououin Kyouma : les « [Phoenix Crusaders,16]Croisés du Phénix »."}
+{"id": "resg02_06.ks:*dummy5:21", "fr": "Histoire de bâtir la grande armée aux ordres directs de Hououin Kyouma : les « Phoenix Crusaders »."}
 {"id": "resg02_06.ks:*dummy5:22", "fr": "Non mais attends un peu."}
 {"id": "resg02_06.ks:*dummy5:23", "fr": "Pourquoi part-elle du principe que mon Ragnarök va échouer ?"}
 {"id": "resg02_06.ks:*dummy5:24", "fr": "Il va falloir que j’apprenne à Suzuha à quel point je suis à craindre."}
@@ -3353,7 +3353,7 @@
 {"id": "resg02_07.ks:*start:1", "fr": "Y aurait-il quelqu’un de plus calé que Daru en PC rétro ?"}
 {"id": "resg02_07.ks:*start:2", "fr": "Maintenant que j’y pense, Shining Finger était mordue de l’IBN 5100."}
 {"id": "resg02_07.ks:*start:3", "fr": "Contacter ce démon de la messagerie ne m’enchante guère, cela dit…"}
-{"id": "resg02_07.ks:*start:4", "fr": "L’issue de la guerre sainte est en jeu ; je sais bien que ce n’est pas le moment de faire le difficile."}
+{"id": "resg02_07.ks:*start:4", "fr": "L’issue du Ragnarök est en jeu ; je sais bien que ce n’est pas le moment de faire le difficile."}
 {"id": "resg02_07.ks:*start:5", "fr": "Je n’ai pas le numéro de Shining Finger, alors je me contente d’un mail."}
 {"id": "resg02_08.ks:*start:0", "fr": "Le lendemain. Je me suis rendu au Radio Center pour voir si un IBN 5100 y était en vente."}
 {"id": "resg02_08.ks:*start:1", "fr": "J’ai fouillé patiemment les rangées de boutiques de pièces, en encaissant la pression muette des vieux tenanciers…"}
@@ -5112,7 +5112,7 @@
 {"id": "resg03_02.ks:*dummy2:31", "fr": "Oui, mais quand mêmeee…"}
 {"id": "resg03_02.ks:*dummy2:32", "fr": "J’aurais préféré ne pas mêler Mayuri à ça, mais elle a un flair étonnant sous ses airs : même caché, elle l’aurait découvert tôt ou tard."}
 {"id": "resg03_02.ks:*dummy2:33", "fr": "Autant lui dire dès le début."}
-{"id": "resg03_02.ks:*dummy2:34", "fr": "Quoi qu’il en soit, la [Ragnarök,19]guerre sainte finale entre notre labo et le SERN est désormais inévitable"}
+{"id": "resg03_02.ks:*dummy2:34", "fr": "Quoi qu’il en soit, le Ragnarök entre notre labo et le SERN est désormais inévitable"}
 {"id": "resg03_02.ks:*dummy2:35", "fr": "J’ai dit ça, mais c’est à moitié du bluff."}
 {"id": "resg03_02.ks:*dummy2:36", "fr": "Quoi qu’il en soit, on ne peut plus revenir en arrière.\\nMaintenant qu’on sait, impossible d’effacer nos souvenirs."}
 {"id": "resg03_02.ks:*dummy2:37", "fr": "Ragna… rock ?"}
@@ -5178,7 +5178,7 @@
 {"id": "resg03_02.ks:*dummy2:91", "fr": "Tu veux juste lui coller un nom bizarroïde, avoue."}
 {"id": "resg03_02.ks:*dummy2:92", "fr": "Fhh. Bizarroïde ? Voilà qui est fort discourtois."}
 {"id": "resg03_02.ks:*dummy2:93", "fr": "Alors écoutez. Ce phénomène du « mail envoyé dans le passé », je l’ai baptisé ainsi. Son nom est%p-1;─%p;─"}
-{"id": "resg03_02.ks:*dummy2:94", "fr": "[Nostalgia Drive,39]le voyage nostalgique à travers le temps"}
+{"id": "resg03_02.ks:*dummy2:94", "fr": "Nostalgia Drive"}
 {"id": "resg03_02.ks:*dummy2:95", "fr": "Incompréhensible. Rejeté."}
 {"id": "resg03_02.ks:*dummy2:96", "fr": "Toi ! Simple assistante, et tu te crois le pouvoir d’opposer un veto ?!"}
 {"id": "resg03_02.ks:*dummy2:97", "fr": "On vote, alors ? Qui est pour Nostalgia Drive ?"}
@@ -5576,8 +5576,8 @@
 {"id": "resg03_08.ks:*dummy2:23", "fr": "J’ai passé pacte avec [　　　ce]IBN[　　　ci]5100 pour servir mon dessein"}
 {"id": "resg03_08.ks:*dummy2:24", "fr": "Une fois ce dessein accompli, je veux bien négocier avec son propriétaire pour que vous puissiez, à votre tour, sceller ce pacte"}
 {"id": "resg03_08.ks:*dummy2:25", "fr": "Le jour où je rendrai l’IBN 5100 au sanctuaire Yanabayashi%p-1;─%p;─"}
-{"id": "resg03_08.ks:*dummy2:26", "fr": "Autrement dit, quand la [Ragnarök,19]guerre sainte finale contre le SERN sera terminée, et le destin du monde scellé."}
-{"id": "resg03_08.ks:*dummy2:27", "fr": "Et que la [Ragnarök,19]guerre sainte finale s’achève en victoire ou en défaite, à ce moment-là, la vie de Hououin Kyouma sera déjà%p-1;─%p;─"}
+{"id": "resg03_08.ks:*dummy2:26", "fr": "Autrement dit, quand le Ragnarök contre le SERN sera terminé, et le destin du monde scellé."}
+{"id": "resg03_08.ks:*dummy2:27", "fr": "Et que le Ragnarök s’achève en victoire ou en défaite, à ce moment-là, la vie de Hououin Kyouma sera déjà%p-1;─%p;─"}
 {"id": "resg03_08.ks:*dummy2:28", "fr": "Non, oublie ce que je viens de dire."}
 {"id": "resg03_08.ks:*dummy2:29", "fr": "Ce n’est pas le moment de songer à un avenir si lointain. Non, pas maintenant…"}
 {"id": "resg03_08.ks:*dummy2:3", "fr": "Le message de Shining Finger disait : « Si tu m’aidais à le transporter, je serais très contente. »"}
@@ -5600,7 +5600,7 @@
 {"id": "resg03_08.ks:*dummy2:45", "fr": "Tu comprendras en la voyant faire. C’est une esper, aucun doute."}
 {"id": "resg03_08.ks:*dummy2:46", "fr": "Bon, peu importe. Enchanté, Kiryuu-shi."}
 {"id": "resg03_08.ks:*dummy2:47", "fr": "…………"}
-{"id": "resg03_08.ks:*dummy2:48", "fr": "Euh, Moeka, cet homme est [My Favorite Right Arm,26]mon bras droit de confiance, le super hackeur Daru%p-1;─%p;─"}
+{"id": "resg03_08.ks:*dummy2:48", "fr": "Euh, Moeka, cet homme est My Favorite Right Arm, le super hackeur Daru%p-1;─%p;─"}
 {"id": "resg03_08.ks:*dummy2:49", "fr": "…………"}
 {"id": "resg03_08.ks:*dummy2:5", "fr": "Pourquoi partez-vous du principe que je vais vous le prêter !"}
 {"id": "resg03_08.ks:*dummy2:50", "fr": "Son expression n’a pas bougé d’un poil. Tout ce qu’on dit lui entre par une oreille et sort par l’autre."}
@@ -5623,7 +5623,7 @@
 {"id": "resg03_08.ks:*dummy4:1", "fr": "Tu as mal entendu."}
 {"id": "resg03_08.ks:*dummy4:10", "fr": "… Le cas échéant, je bloquerai la fuite, quitte à faire taire le témoin. … Oui, l’Organisation ne doit surtout rien apprendre"}
 {"id": "resg03_08.ks:*dummy4:11", "fr": "Si tel est le choix de Steins Gate, c’est à désespérer"}
-{"id": "resg03_08.ks:*dummy4:12", "fr": "… Hmph, n’ayez crainte. L’enfer attendra la fin de la guerre sainte"}
+{"id": "resg03_08.ks:*dummy4:12", "fr": "… Hmph, n’ayez crainte. L’enfer attendra la fin du Ragnarök"}
 {"id": "resg03_08.ks:*dummy4:13", "fr": "El Psy Kongroo"}
 {"id": "resg03_08.ks:*dummy4:14", "fr": "… C’était qui, au téléphone ?"}
 {"id": "resg03_08.ks:*dummy4:15", "fr": "Cela ne vous concerne pas"}
@@ -5710,7 +5710,7 @@
 {"id": "resg03_09.ks:*dummy4:4", "fr": "Ils comptent me sacrifier, ces types… !"}
 {"id": "resg03_09.ks:*dummy4:40", "fr": "2nd Edition ver1.03."}
 {"id": "resg03_09.ks:*dummy4:41", "fr": "J’ignore d’où sort ce numéro de version…"}
-{"id": "resg03_09.ks:*dummy4:42", "fr": "Cesse ces appellations sans grâce. Cette version améliorée s’appellera « [Heavenly Merry-Go-Round,31]le manège qui atteint le paradis »"}
+{"id": "resg03_09.ks:*dummy4:42", "fr": "Cesse ces appellations sans grâce. Cette version améliorée s’appellera « Heavenly Merry-Go-Round »"}
 {"id": "resg03_09.ks:*dummy4:43", "fr": "On s’en fiche, du nom.\\nAllez, l’expérience%p-1;─%p;─"}
 {"id": "resg03_09.ks:*dummy4:44", "fr": "Un déclic d’appareil photo interrompt notre dispute. On reste tous interdits."}
 {"id": "resg03_09.ks:*dummy4:45", "fr": "Moeka braque l’objectif de son portable sur nous.\\nJe lui avais pourtant répété de ne pas me photographier… !"}
@@ -5907,7 +5907,7 @@
 {"id": "resg03_10.ks:*dummy15:30", "fr": "Je sors mon portable et le porte à mon oreille."}
 {"id": "resg03_10.ks:*dummy15:31", "fr": "…C’est moi. Nous passons à la phase deux de l’Opération Urd"}
 {"id": "resg03_10.ks:*dummy15:32", "fr": "…Oui, aucun problème. Hououin Kyouma en assumera l’entière responsabilité. …Fu, tu ne seras pas inquiété"}
-{"id": "resg03_10.ks:*dummy15:33", "fr": "…Exact. Tel est mon choix, et c’est en même temps celui de la Steins Gate. La guerre sainte approche"}
+{"id": "resg03_10.ks:*dummy15:33", "fr": "…Exact. Tel est mon choix, et c’est en même temps celui de la Steins Gate. Le Ragnarök approche"}
 {"id": "resg03_10.ks:*dummy15:34", "fr": "El Psy Kongroo"}
 {"id": "resg03_10.ks:*dummy15:35", "fr": "À présent, que l’opération commence !"}
 {"id": "resg03_10.ks:*dummy15:36", "fr": "Ouais, mais concrètement, on fait quoi, là ?"}
@@ -6007,8 +6007,8 @@
 {"id": "resg03_10.ks:*dummy6:1", "fr": "Mon ambition est bel et bien d’apporter le chaos au monde."}
 {"id": "resg03_10.ks:*dummy6:2", "fr": "Toutefois, nos préparatifs sont bien trop insuffisants pour la mettre à exécution."}
 {"id": "resg03_10.ks:*dummy6:3", "fr": "À plus forte raison avec des messages de 18 caractères : on ne peut presque rien en faire."}
-{"id": "resg03_10.ks:*dummy6:4", "fr": "Aussi mettrai-je de côté, pour l’heure, mon ambition%p-1;─%p;─le [Project Chaotic,20]Plan de chaos mondial."}
-{"id": "resg03_10.ks:*dummy6:5", "fr": "[Project Chaotic,20]Plan de chaos mondial… ?"}
+{"id": "resg03_10.ks:*dummy6:4", "fr": "Aussi mettrai-je de côté, pour l’heure, mon ambition%p-1;─%p;─le Project Chaotic."}
+{"id": "resg03_10.ks:*dummy6:5", "fr": "Project Chaotic… ?"}
 {"id": "resg03_10.ks:*dummy6:6", "fr": "Tu viens de l’inventer, hein ?"}
 {"id": "resg03_10.ks:*dummy6:7", "fr": "Bonne réponse, Makise-shi !"}
 {"id": "resg03_10.ks:*dummy6:8", "fr": "…………"}
@@ -6391,7 +6391,7 @@
 {"id": "resg03_13.ks:*dummy8:10", "fr": "C’est plutôt toi qui te sens seul, non ? Tu n’as pas l’air en forme depuis un moment."}
 {"id": "resg03_13.ks:*dummy8:11", "fr": "Je peux t’écouter, si tu veux. Je suis un peu une étrangère ici, ça doit être plus facile de me parler, non ?"}
 {"id": "resg03_13.ks:*dummy8:12", "fr": "J’ai un message à envoyer, moi."}
-{"id": "resg03_13.ks:*dummy8:13", "fr": "Si vous tenez tant à rester, ayez l’obligeance de vous taire, [The Zombie,10]Ressuscitée."}
+{"id": "resg03_13.ks:*dummy8:13", "fr": "Si vous tenez tant à rester, ayez l’obligeance de vous taire, The Zombie."}
 {"id": "resg03_13.ks:*dummy8:14", "fr": "C’est ce surnom-là qui m’agace le plus…"}
 {"id": "resg03_13.ks:*dummy8:15", "fr": "Elle râle, mais elle ne fait pas un geste pour partir."}
 {"id": "resg03_13.ks:*dummy8:16", "fr": "Elle s’assoit sur le canapé et ouvre un épais ouvrage spécialisé. En regardant mieux, il est en anglais."}
@@ -6603,7 +6603,7 @@
 {"id": "resg04_01.ks:*dummy4:9", "fr": "Non, pas encore. Ce n’est pas fini !"}
 {"id": "resg04_01.ks:*merge1:0", "fr": "Et tu veux renverser ce résultat ?"}
 {"id": "resg04_01.ks:*merge1:1", "fr": "Je me souviens presque parfaitement du jeu de Faris-tan, donc je vais la contrer. Uwah, je suis trop malin, non ?"}
-{"id": "resg04_01.ks:*merge1:10", "fr": "Tu es tenace. On ne t’appelle pas le Zombie pour rien, hein ?"}
+{"id": "resg04_01.ks:*merge1:10", "fr": "Tu es tenace. On ne t’appelle pas The Zombie pour rien, hein ?"}
 {"id": "resg04_01.ks:*merge1:11", "fr": "Je ne vois pas le rapport."}
 {"id": "resg04_01.ks:*merge1:12", "fr": "Le zombie continue d’attaquer même mort. C’est d’une ténacité redoutable."}
 {"id": "resg04_01.ks:*merge1:13", "fr": "Arrête tes blagues. Moi, je te parle sérieusement."}
@@ -7100,7 +7100,7 @@
 {"id": "resg04_07.ks:*start:18", "fr": "Kurisu lève légèrement la main pour nous saluer et s’éloigne dans la direction opposée à la gare d’Akihabara."}
 {"id": "resg04_07.ks:*start:19", "fr": "Mayuri, elle, ne bouge pas d’un pouce."}
 {"id": "resg04_07.ks:*start:2", "fr": "Mais c’était inutile."}
-{"id": "resg04_07.ks:*start:20", "fr": "Ou plutôt, son tic habituel%p-1;─%p;─ la « [Stardust Handshake,39]poignée de main aux poussières d’étoiles » venait de s’enclencher."}
+{"id": "resg04_07.ks:*start:20", "fr": "Ou plutôt, son tic habituel%p-1;─%p;─ le « Stardust Handshake » venait de s’enclencher."}
 {"id": "resg04_07.ks:*start:21", "fr": "Elle regarde le ciel nocturne, une main levée comme pour attraper les étoiles."}
 {"id": "resg04_07.ks:*start:22", "fr": "Et là, une étoile filante traverse le ciel sombre, pile au bon moment."}
 {"id": "resg04_07.ks:*start:23", "fr": "… Dis, Okarin."}
@@ -8211,7 +8211,7 @@
 {"id": "resg04_17.ks:*dummy7:24", "fr": "Nul contrat écrit n’existe. Ce qu’il faut, c’est… oui, un pacte de sang entre les contractants."}
 {"id": "resg04_17.ks:*dummy7:25", "fr": "Un pacte… de sang… !"}
 {"id": "resg04_17.ks:*dummy7:26", "fr": "Ô vous, Faris NyanNyan…"}
-{"id": "resg04_17.ks:*dummy7:27", "fr": "Si vous désirez rejoindre les Labomem, selon le code transmis depuis l’antiquité en [High Ancient Word,20]langue archi-ancienne%p-1;─%p;─"}
+{"id": "resg04_17.ks:*dummy7:27", "fr": "Si vous désirez rejoindre les Labomem, selon le code transmis depuis l’antiquité en High Ancient Word%p-1;─%p;─"}
 {"id": "resg04_17.ks:*dummy7:28", "fr": "Jurez d’offrir cette chair, ces os, ce sang au calice des cieux, et recevez le baptême du serment !"}
 {"id": "resg04_17.ks:*dummy7:29", "fr": "Alors les dieux antiques répondront, et vous octroieront votre numéro de Labomem."}
 {"id": "resg04_17.ks:*dummy7:3", "fr": "Décidément, il ne faut pas aborder ce genre de sujet avec Faris…"}
@@ -8887,7 +8887,7 @@
 {"id": "resg04_25.ks:*dummy2:21", "fr": "À cette heure-ci, le phénomène de décharge du Phone Microwave (provisoire) ne se produira peut-être pas."}
 {"id": "resg04_25.ks:*dummy2:22", "fr": "Dans ce cas, j’enverrai le D-Mail demain. Rien de plus."}
 {"id": "resg04_25.ks:*dummy2:23", "fr": "Ne me prenez pas à la légère, guerrière à temps partiel."}
-{"id": "resg04_25.ks:*dummy2:24", "fr": "Vous devrez combattre comme mon pion lors de la [Ragnarök,19]guerre sainte finale. Je n’autoriserai aucune initiative personnelle."}
+{"id": "resg04_25.ks:*dummy2:24", "fr": "Vous devrez combattre comme mon pion lors du Ragnarök. Je n’autoriserai aucune initiative personnelle."}
 {"id": "resg04_25.ks:*dummy2:25", "fr": "Soudain, quelque chose de froid me touche le visage.\\nJe lève les yeux : il commence à tomber quelques gouttes."}
 {"id": "resg04_25.ks:*dummy2:26", "fr": "Le lendemain."}
 {"id": "resg04_25.ks:*dummy2:27", "fr": "La veille au soir, ça a fini en violent orage."}
@@ -9711,7 +9711,7 @@
 {"id": "resg05_07.ks:*dummy8:2", "fr": "Mais s’ils ne se résolvent pas, rien ne sera jamais achevé."}
 {"id": "resg05_07.ks:*dummy8:3", "fr": "Tout dépend du choix de Steins Gate. Une voie s’ouvrira, j’en ai la certitude."}
 {"id": "resg05_07.ks:*dummy8:4", "fr": "Et lorsque cette porte s’ouvrira, ce qui viendra sera le chaos que je désire."}
-{"id": "resg05_07.ks:*dummy8:5", "fr": "Le rideau se lèvera enfin sur la [Ragnarök,19]guerre sainte finale contre l’« Organisation », maîtresse du monde depuis l’ombre… !"}
+{"id": "resg05_07.ks:*dummy8:5", "fr": "Le rideau se lèvera enfin sur le Ragnarök contre l’« Organisation », maîtresse du monde depuis l’ombre… !"}
 {"id": "resg05_07.ks:*dummy8:6", "fr": "Okarin, tu te bats contre qui, déjà ?"}
 {"id": "resg05_07.ks:*dummy8:7", "fr": "Contre les maîtres cachés, ceux qui ne paraissent jamais sur la scène. Cela va de soi."}
 {"id": "resg05_07.ks:*dummy8:8", "fr": "Ouah, c’est impressionnant ! Mais faut pas faire de choses dangereuses, hein ?"}
@@ -9806,7 +9806,7 @@
 {"id": "resg05_08.ks:*start:9", "fr": "Apparemment, elle compte jouer les innocentes jusqu’au bout."}
 {"id": "resg05_09.ks:*dummy1:0", "fr": "Autrement dit, si mes inventions sont si géniales, si audacieuses et si raffinées, c’est parce que je dors ici chaque nuit !"}
 {"id": "resg05_09.ks:*dummy1:1", "fr": "Un système qui active les substances cérébrales… Et tu déverses quoi là-dedans, au juste ?"}
-{"id": "resg05_09.ks:*dummy1:2", "fr": "Ne parle pas de mon labo comme d’une usine à eaux usées, ô [The Zombie,10]ressuscitée."}
+{"id": "resg05_09.ks:*dummy1:2", "fr": "Ne parle pas de mon labo comme d’une usine à eaux usées, The Zombie."}
 {"id": "resg05_09.ks:*dummy1:3", "fr": "Ah, Mayushii sait ! C’est sûrement ça, regarde."}
 {"id": "resg05_09.ks:*dummy1:4", "fr": "Ça… c’est un désodorisant ?"}
 {"id": "resg05_09.ks:*dummy1:5", "fr": "Il paraît que l’odeur rend intelligent. Okarin a dit qu’il l’avait acheté à « Akibao~ »."}
@@ -10621,7 +10621,7 @@
 {"id": "resg05_15.ks:*dummy2:68", "fr": "Personne t’a rien demandé. Et j’ai aucune envie d’en devenir une"}
 {"id": "resg05_15.ks:*dummy2:69", "fr": "…………"}
 {"id": "resg05_15.ks:*dummy2:7", "fr": "Suzuha est avec elle."}
-{"id": "resg05_15.ks:*dummy2:70", "fr": "Guerrière à temps partiel, celle que vous devez combattre lors de la [Ragnarök,19]guerre sainte finale, c’est SERN"}
+{"id": "resg05_15.ks:*dummy2:70", "fr": "Guerrière à temps partiel, celle que vous devez combattre lors du Ragnarök, c’est SERN"}
 {"id": "resg05_15.ks:*dummy2:71", "fr": "Je t’avais prévenu, Okabe Rintarou. Méfie-toi de Makise Kurisu"}
 {"id": "resg05_15.ks:*dummy2:72", "fr": "Atten…"}
 {"id": "resg05_15.ks:*dummy2:73", "fr": "Elle sort ça maintenant, là, tout de suite ?"}
@@ -15491,7 +15491,7 @@
 {"id": "resg07_07.ks:*dummy10:45", "fr": "Après la finale, mauvais perdants, ils lui ont cherché des noises : elle a fui la salle sans même assister à la remise des prix."}
 {"id": "resg07_07.ks:*dummy10:46", "fr": "Pourquoi un tel scandale ?"}
 {"id": "resg07_07.ks:*dummy10:47", "fr": "Je ne le dis qu’à toi, Kyouma : en réalité, Faris sait lire dans le cœur des gens, nyan."}
-{"id": "resg07_07.ks:*dummy10:48", "fr": "Nom du <tips,262,Stand> : « <tips,263,[Cheshire Break,26]sourire du chat du Cheshire> »"}
+{"id": "resg07_07.ks:*dummy10:48", "fr": "Nom du <tips,262,Stand> : « <tips,263,Cheshire Break> »"}
 {"id": "resg07_07.ks:*dummy10:49", "fr": "Impossible de savoir si elle est sérieuse ou si elle a juste du flair."}
 {"id": "resg07_07.ks:*dummy10:5", "fr": "Faris jaillit de la salle en courant."}
 {"id": "resg07_07.ks:*dummy10:50", "fr": "Et eux, ils ont crié à la triche, nyan."}
@@ -16239,7 +16239,7 @@
 {"id": "resg07_12f.ks:*start:33", "fr": "…………"}
 {"id": "resg07_12f.ks:*start:34", "fr": "… Kyouma ?"}
 {"id": "resg07_12f.ks:*start:35", "fr": "Faris fronce les sourcils, puis se penche vers moi et me fixe droit dans les yeux."}
-{"id": "resg07_12f.ks:*start:36", "fr": "Serait-ce son pouvoir de lire dans les pensées d’autrui%p-1;─%p;─ euh, le [Cheshire Break,26]sourire du chat du Cheshire, c’est ça ?%p-1;─%p;─ qu’elle utilise là ?"}
+{"id": "resg07_12f.ks:*start:36", "fr": "Serait-ce son pouvoir de lire dans les pensées d’autrui%p-1;─%p;─ euh, le Cheshire Break, c’est ça ?%p-1;─%p;─ qu’elle utilise là ?"}
 {"id": "resg07_12f.ks:*start:37", "fr": "…………"}
 {"id": "resg07_12f.ks:*start:38", "fr": "…………"}
 {"id": "resg07_12f.ks:*start:39", "fr": "Non, Kyouma…"}
@@ -17774,7 +17774,7 @@
 {"id": "resg08_13r.ks:*dummy2:142", "fr": "Elle lève haut une main."}
 {"id": "resg08_13r.ks:*dummy2:143", "fr": "Elle contemple le ciel nocturne."}
 {"id": "resg08_13r.ks:*dummy2:144", "fr": "Elle redresse le dos et se hisse sur la pointe des pieds, comme pour saisir les étoiles."}
-{"id": "resg08_13r.ks:*dummy2:145", "fr": "La [Stardust Handshake,39]poignée de main aux poussières d’étoiles."}
+{"id": "resg08_13r.ks:*dummy2:145", "fr": "Stardust Handshake."}
 {"id": "resg08_13r.ks:*dummy2:146", "fr": "Tu les vois, les étoiles ?"}
 {"id": "resg08_13r.ks:*dummy2:147", "fr": "Oui"}
 {"id": "resg08_13r.ks:*dummy2:148", "fr": "Si elle pouvait, comme ça, s’envoler vers le ciel."}
@@ -20136,7 +20136,7 @@
 {"id": "resg09_12.ks:*dummy2:21", "fr": "Si Daru maîtrise déjà la bête, rien ne nous empêche de lancer le piratage de SERN dès maintenant."}
 {"id": "resg09_12.ks:*dummy2:22", "fr": "Avis à tous les Labomem !"}
 {"id": "resg09_12.ks:*dummy2:23", "fr": "Mayuri n’est pas là, mais ça tombe plutôt bien."}
-{"id": "resg09_12.ks:*dummy2:24", "fr": "L’heure est venue de clore ce long combat ! Autrement dit, la [Ragnarök,19]guerre sainte finale commence !"}
+{"id": "resg09_12.ks:*dummy2:24", "fr": "L’heure est venue de clore ce long combat ! Autrement dit, le Ragnarök commence !"}
 {"id": "resg09_12.ks:*dummy2:25", "fr": "Notre opération consiste à détruire, par cracking à l’aide de l’IBN 5100, les données ultra-secrètes enfouies au plus profond du siège de SERN !"}
 {"id": "resg09_12.ks:*dummy2:26", "fr": "Au moyen de cet ignoble engin électronique nommé Échelon, ils nous ont dérobé nos informations les plus secrètes"}
 {"id": "resg09_12.ks:*dummy2:27", "fr": "Pire encore, ils s’en sont servis pour nous identifier et convoiter le rêve de l’humanité que nous avons bâti : notre machine à voyager dans le temps !"}
@@ -20186,7 +20186,7 @@
 {"id": "resg09_12.ks:*dummy2:67", "fr": "Et pour libérer de SERN le futur d’où vient Suzuha%p-1;─%p;─"}
 {"id": "resg09_12.ks:*dummy2:68", "fr": "Nous devons fuir la ligne d’univers α."}
 {"id": "resg09_12.ks:*dummy2:69", "fr": "Et pour cela, je crois qu’il faut « annuler » tous les événements que j’ai déformés jusqu’ici."}
-{"id": "resg09_12.ks:*dummy2:7", "fr": "Dès à présent débute la phase finale de l’opération « [Opération Verthandi,29]la Déesse qui régit le présent » !"}
+{"id": "resg09_12.ks:*dummy2:7", "fr": "Dès à présent débute la phase finale de l’Opération Verthandi !"}
 {"id": "resg09_12.ks:*dummy2:70", "fr": "Autrement dit, notre but est la ligne d’univers β, celle d’avant mon premier D-Mail à Daru."}
 {"id": "resg09_12.ks:*dummy2:71", "fr": "Pour l’atteindre, il faut supprimer de la base de données de SERN les données du premier mail capté par Échelon."}
 {"id": "resg09_12.ks:*dummy2:72", "fr": "Si on efface maintenant mes données de mail des ordinateurs de SERN, ce chiffre devrait être atteint."}
@@ -21270,7 +21270,7 @@
 {"id": "resg10_01.ks:*merge:183", "fr": "j’ai pu… servir… à quelque chose…"}
 {"id": "resg10_01.ks:*merge:184", "fr": "Qu… quoi… ?"}
 {"id": "resg10_01.ks:*merge:185", "fr": "Sa main se lève vers le ciel étoilé, comme pour le saisir."}
-{"id": "resg10_01.ks:*merge:186", "fr": "[Stardust Handshake,39]Poignée de main aux poussières d’étoiles."}
+{"id": "resg10_01.ks:*merge:186", "fr": "Stardust Handshake."}
 {"id": "resg10_01.ks:*merge:187", "fr": "Mais au bout du compte, cette main n’aura rien saisi."}
 {"id": "resg10_01.ks:*merge:188", "fr": "Elle perd aussitôt toute force."}
 {"id": "resg10_01.ks:*merge:189", "fr": "Son poignet retombe, je le rattrape et le retiens."}
@@ -22045,7 +22045,7 @@
 {"id": "resg10_06m.ks:*start:83", "fr": "Puis Suzuha, Faris, Luka-ko, et aussi Moeka, FB, Nae."}
 {"id": "resg10_06m.ks:*start:84", "fr": "Et pour finir… Kurisu."}
 {"id": "resg10_06m.ks:*start:85", "fr": "Autrement dit, je ferai de Makise Kurisu mon offrande pour m’élancer vers un monde nouveau !"}
-{"id": "resg10_06m.ks:*start:86", "fr": "Tel est le plan grandiose conçu par moi, Hououin Kyouma, et son nom est « [Made in Heaven,20]Chaotisation du Monde » !"}
+{"id": "resg10_06m.ks:*start:86", "fr": "Tel est le plan grandiose conçu par moi, Hououin Kyouma, et son nom est « Made in Heaven » !"}
 {"id": "resg10_06m.ks:*start:87", "fr": "Fouhahaha !"}
 {"id": "resg10_06m.ks:*start:88", "fr": "…………"}
 {"id": "resg10_06m.ks:*start:89", "fr": "……Pourquoi cette tête ?"}
@@ -22169,7 +22169,7 @@
 {"id": "resg10_07m.ks:*start:97", "fr": "Ça va de soi, non…"}
 {"id": "resg10_07m.ks:*start:98", "fr": "Si tu n’es pas là, c’est moi qui ne le supporterai pas…"}
 {"id": "resg10_07m.ks:*start:99", "fr": "Oui…"}
-{"id": "resg10_08m.ks:*start:0", "fr": "……Dès à présent, j’engage la phase finale de l’opération « [Verthandi,29]la Déesse qui régit le présent »."}
+{"id": "resg10_08m.ks:*start:0", "fr": "……Dès à présent, j’engage la phase finale de l’Opération Verthandi."}
 {"id": "resg10_08m.ks:*start:1", "fr": "C’est le dernier jour de ComiMa, et Daru comptait bien y aller, mais quand je lui ai demandé, il a tout compris et nous a fait passer en premier."}
 {"id": "resg10_08m.ks:*start:10", "fr": "Ce que Suzuha a raconté sur le futur n’a rien à voir."}
 {"id": "resg10_08m.ks:*start:11", "fr": "Si Mayuri reste en vie, ça me suffit."}
@@ -22217,7 +22217,7 @@
 {"id": "resg10_08m.ks:*start:5", "fr": "Toutes ces rencontres."}
 {"id": "resg10_08m.ks:*start:50", "fr": "… Adieu, Kurisu."}
 {"id": "resg10_08m.ks:*start:51", "fr": "L’heure de la victoire est venue !"}
-{"id": "resg10_08m.ks:*start:52", "fr": "Nul complot n’a fait fléchir ma personne : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte finale !"}
+{"id": "resg10_08m.ks:*start:52", "fr": "Nul complot n’a fait fléchir ma personne : fidèle à ma conviction, j’ai mené jusqu’au bout le Ragnarök !"}
 {"id": "resg10_08m.ks:*start:53", "fr": "Gratitude à mes compagnons, qui furent mes bras et mes jambes dans ce combat pour la victoire !"}
 {"id": "resg10_08m.ks:*start:54", "fr": "Si j’appuie sur cette touche."}
 {"id": "resg10_08m.ks:*start:55", "fr": "Kurisu meurt."}
@@ -22670,7 +22670,7 @@
 {"id": "resg10_10k.ks:*from_resg10_04:97", "fr": "Je ne peux plus te regarder comme ça, Okabe. Tu t’es vu dans un miroir ? Tu as vieilli d’un coup."}
 {"id": "resg10_10k.ks:*from_resg10_04:98", "fr": "Ton cœur est en morceaux, non ? Arrête de te torturer et accepte simplement ce que je te dis."}
 {"id": "resg10_10k.ks:*from_resg10_04:99", "fr": "Tu ne peux pas rester ici."}
-{"id": "resg10_11k.ks:*start:0", "fr": "……Nous entamons dès à présent la phase finale de l’opération « [Opération Verthandi,29]la Déesse qui régit le présent »"}
+{"id": "resg10_11k.ks:*start:0", "fr": "……Nous entamons dès à présent la phase finale de l’Opération Verthandi"}
 {"id": "resg10_11k.ks:*start:1", "fr": "C’est aujourd’hui le dernier jour de ComiMa."}
 {"id": "resg10_11k.ks:*start:10", "fr": "Et malgré ça, j’ai choisi d’effacer les souvenirs et de tout remettre comme avant."}
 {"id": "resg10_11k.ks:*start:11", "fr": "Le futur dont Suzuha a parlé n’a rien à voir là-dedans."}
@@ -22718,7 +22718,7 @@
 {"id": "resg10_11k.ks:*start:5", "fr": "Tous ces souvenirs."}
 {"id": "resg10_11k.ks:*start:50", "fr": "… Adieu, Kurisu."}
 {"id": "resg10_11k.ks:*start:51", "fr": "L’heure de la victoire a sonné !"}
-{"id": "resg10_11k.ks:*start:52", "fr": "Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte finale !"}
+{"id": "resg10_11k.ks:*start:52", "fr": "Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout le Ragnarök !"}
 {"id": "resg10_11k.ks:*start:53", "fr": "Que mes compagnons, bras et jambes de mon combat, reçoivent ma gratitude pour cette victoire !"}
 {"id": "resg10_11k.ks:*start:54", "fr": "Si j’appuie sur cette touche."}
 {"id": "resg10_11k.ks:*start:55", "fr": "Kurisu mourra."}
@@ -22795,7 +22795,7 @@
 {"id": "resg10_12k.ks:*from_resg10_11k:33", "fr": "Malgré tout, j’ai gagné ce combat."}
 {"id": "resg10_12k.ks:*from_resg10_11k:34", "fr": "Parce que j’ai réussi à sauver Mayuri."}
 {"id": "resg10_12k.ks:*from_resg10_11k:35", "fr": "%p-1;─%p;─Hgh !"}
-{"id": "resg10_12k.ks:*from_resg10_11k:36", "fr": "En cet instant, l’issue de la [Ragnarök,19]guerre sainte finale est scellée !"}
+{"id": "resg10_12k.ks:*from_resg10_11k:36", "fr": "En cet instant, l’issue du Ragnarök est scellée !"}
 {"id": "resg10_12k.ks:*from_resg10_11k:37", "fr": "Car moi, Hououin Kyouma, savant fou au génie dément, face à toutes les attaques de l’« Organisation » et de SERN%p-1;─%p;─"}
 {"id": "resg10_12k.ks:*from_resg10_11k:38", "fr": "En manipulant l’espace-temps, j’ai triomphé sans partage !"}
 {"id": "resg10_12k.ks:*from_resg10_11k:39", "fr": "Je suis devenu l’égal d’un dieu !"}
@@ -23962,7 +23962,7 @@
 {"id": "resg11_06.ks:*wsl:12", "fr": "Jusqu’à cette ligne d’univers inconnue : « Steins;Gate »."}
 {"id": "resg11_06.ks:*wsl:13", "fr": "Des éclats irisés commencent à flotter devant mes yeux."}
 {"id": "resg11_06.ks:*wsl:14", "fr": "Allez. C’est le moment."}
-{"id": "resg11_06.ks:*wsl:15", "fr": "Voici ma dernière guerre sainte."}
+{"id": "resg11_06.ks:*wsl:15", "fr": "Voici mon dernier Ragnarök."}
 {"id": "resg11_06.ks:*wsl:16", "fr": "Pour la troisième fois, me voilà de retour ici."}
 {"id": "resg11_06.ks:*wsl:17", "fr": "Je simule une dernière fois dans ma tête tout ce qu’il me reste à faire."}
 {"id": "resg11_06.ks:*wsl:18", "fr": "Le temps est terriblement serré, mais je n’ai pas le choix."}

@@ -10,14 +10,14 @@ Installeur plus sûr, et traduction harmonisée.
 
 ### Traduction
 
-- **Shining Finger reste Shining Finger.** Le surnom qu'Okabe donne à Moeka
-  était traduit de quinze façons (« la Masseuse fulgurante », « l'acupressiste »,
-  « le maître du shiatsu »…), parfois au masculin. C'est un nom propre : il
-  reste en anglais, partout (95 répliques).
+- **Les noms chuuni d'Okabe restent tels quels.** Shining Finger, Ragnarök,
+  The Zombie, Stardust Handshake, Cheshire Break, Phoenix Crusaders… étaient
+  traduits, et parfois de plusieurs façons : le surnom de Moeka à lui seul
+  avait quinze versions (« la Masseuse fulgurante », « le maître du
+  shiatsu »…). Ce sont des noms : on les garde, partout (137 répliques).
 - **Articles affichés en double** dans cinq annotations (« la « la Masseuse… »,
   « de l'l'opération »). Corrigé.
-- **Termes unifiés** : « poignée de main aux poussières d'étoiles », « guerre
-  sainte finale », « Opération Urd ».
+- **Opération Urd** et **Opération Verthandi** : le même nom partout.
 - **Typographie** : une seule apostrophe (’) sur tout le texte, et plus de
   ponctuation japonaise (？！) au milieu du français.
 

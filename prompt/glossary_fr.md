@@ -168,12 +168,17 @@ dans le jeu). Ne renomme que le gadget.
 
 **Restent en l'état par le même principe :** Labomem, Reading Steiner,
 El Psy Kongroo, IBN 5100, SERN, Rounder, D-Mail, Akihabara, Radio Kaikan,
-Shining Finger, Opération Urd.
+Opération Urd, Opération Verthandi.
 
-**Rubis conservés, forme unique :** l'article reste **hors** du rubis, qui ne
-couvre que le nom — sinon l'article s'affiche deux fois.
+**Les noms chuuni d'Okabe restent tels quels, partout, sans rubis ni
+traduction.** Ce sont des noms : le joueur doit les reconnaître d'une scène à
+l'autre. Le japonais les écrit en rubis sur une glose (`[ラグナロック]最終聖戦`) :
+on garde le nom, pas la glose.
 
-| Rubis | Texte couvert |
-|---|---|
-| Stardust Handshake | la « poignée de main aux poussières d’étoiles » |
-| Ragnarök | la guerre sainte finale |
+Shining Finger, Ragnarök (masculin : « le Ragnarök »), The Zombie,
+Stardust Handshake, Cheshire Break, Cooling Off, Coloring Gentleman,
+Size Hang, Phoenix Crusaders, Nostalgia Drive, My Favorite Right Arm,
+Heavenly Merry-Go-Round, Project Chaotic, High Ancient Word, Made in Heaven.
+
+Les rubis **explicatifs** restent en rubis : `[divergence,N]taux de divergence`,
+`[turning point,N]point de bifurcation`, `[Pekeroppa,N]X68000`…
