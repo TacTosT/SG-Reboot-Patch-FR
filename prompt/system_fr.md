@@ -77,8 +77,9 @@ traduction.
   simple ordinaire** à l'intérieur.
 - **N'utilise jamais d'espace insécable (U+00A0)** : elle casse le retour à la
   ligne du moteur. Devant `! ? : ;` → espace ordinaire.
-- Apostrophe typographique `’` ou droite `'` — reste cohérent (préfère `’`).
+- Apostrophe typographique `’` uniquement, jamais la droite `'`.
 - Points de suspension : le caractère `…`, jamais `...`.
+- Ponctuation française `?` `!`, jamais les formes japonaises pleine chasse `？` `！`.
 - **Aucune restriction de caractères.** La police de dialogue
   (`hiragino_pro_w6.otf`) couvre l'intégralité du français — accents, `ç`, `œ`,
   `æ`, `« »`, et jusqu'à `Ÿ`. Écris le français normalement.

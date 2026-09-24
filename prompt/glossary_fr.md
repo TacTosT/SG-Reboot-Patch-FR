@@ -117,6 +117,7 @@ rend ça par le registre ; le français, lui, force un choix à chaque adjectif.
 | ダル | Daru | tout le monde |
 | フェイリス | Faris | |
 | ルカ子 | Luka-ko | Okabe → Luka |
+| 閃光の指圧師 | **Shining Finger** | Okabe → Moeka. Nom propre : jamais traduit, jamais en rubis, sans article (« le message de Shining Finger »). |
 
 **Honorifiques : tous conservés** (-san, -kun, -chan, -sama, -senpai).
 « 天王寺さん » → « Braun-san », jamais « Monsieur Braun ».
@@ -166,4 +167,13 @@ reste en anglais, seul le gag est francisé.
 dans le jeu). Ne renomme que le gadget.
 
 **Restent en l'état par le même principe :** Labomem, Reading Steiner,
-El Psy Kongroo, IBN 5100, SERN, Rounder, D-Mail, Akihabara, Radio Kaikan.
+El Psy Kongroo, IBN 5100, SERN, Rounder, D-Mail, Akihabara, Radio Kaikan,
+Shining Finger, Opération Urd.
+
+**Rubis conservés, forme unique :** l'article reste **hors** du rubis, qui ne
+couvre que le nom — sinon l'article s'affiche deux fois.
+
+| Rubis | Texte couvert |
+|---|---|
+| Stardust Handshake | la « poignée de main aux poussières d’étoiles » |
+| Ragnarök | la guerre sainte finale |

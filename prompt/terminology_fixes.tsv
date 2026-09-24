@@ -22,3 +22,14 @@ literal	ᵉ	e	glyphe absent des polices du jeu
 # N = nombre de caracteres couverts - 1 : « guerre sainte finale » = 20 -> 19.
 # A 22 la portee mordait sur « > c », hors de la balise.
 literal	[Ragnarök,22]guerre sainte finale	[Ragnarök,19]guerre sainte finale	portee de rubis hors bornes
+
+# Typographie (2026-09-24) : une seule apostrophe, la typographique. Le texte
+# en mélangeait deux (6 557 lignes en ' contre 9 123 en ’). Aucune ' ne sert
+# de guillemet dans le texte : toutes sont des élisions.
+literal	'	’	apostrophe typographique partout
+
+# Ponctuation japonaise pleine chasse restée dans le français (……？, …！?).
+# Les touches de clavier ＃ et ＊ restent : elles citent un clavier japonais.
+literal	？	?	point d'interrogation pleine chasse
+literal	！	!	point d'exclamation pleine chasse
+regex	(?<=\S) {2,}	 	espaces multiples

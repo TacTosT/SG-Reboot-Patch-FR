@@ -3,8 +3,14 @@
 
 Terminology is a find/replace problem, not a translation problem. Sending these
 back through the API costs money, takes hours, and risks the model changing
-something you did not ask it to change. Rules live in
-`prompt/terminology_fixes.tsv`; adding one is a line of text and costs nothing.
+something you did not ask it to change. Two files, applied in this order:
+
+  prompt/terminology_fixes.tsv   global rules (regex or literal), every line
+  prompt/line_fixes.tsv          one reviewed edit per line: id, before, after
+
+A line fix only applies if the line still reads exactly `before`, so an edit
+can never land on text it was not written for. A line that already reads
+`after` counts as done, which makes `--apply` safe to re-run.
 
     python fix_terms.py --survey                 # what's actually in the file
     python fix_terms.py --dry-run                # what the rules would change
@@ -20,6 +26,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RULES = os.path.join(HERE, "prompt", "terminology_fixes.tsv")
+LINE_FIXES = os.path.join(HERE, "prompt", "line_fixes.tsv")
 DEFAULT_TARGET = os.path.join(HERE, "extracted", "all_fr.jsonl")
 
 # Patterns used only by --survey, to show what the translation actually
@@ -51,6 +58,43 @@ def load_rules():
             compiled = re.compile(pattern if kind == "regex" else re.escape(pattern))
             rules.append((compiled, repl, note, n))
     return rules
+
+
+def load_line_fixes():
+    """{id: (before, after, note, line_no)} from prompt/line_fixes.tsv."""
+    fixes = {}
+    if not os.path.exists(LINE_FIXES):
+        return fixes
+    with open(LINE_FIXES, encoding="utf-8") as f:
+        for n, line in enumerate(f, 1):
+            line = line.rstrip("\n")
+            if not line.strip() or line.startswith("#"):
+                continue
+            parts = line.split("\t")
+            if len(parts) < 3:
+                sys.exit(f"{LINE_FIXES}:{n}: expected id, before, after (tab-separated)")
+            if parts[0] in fixes:
+                sys.exit(f"{LINE_FIXES}:{n}: {parts[0]} already has a fix")
+            fixes[parts[0]] = (parts[1], parts[2], parts[3] if len(parts) > 3 else "", n)
+    return fixes
+
+
+def apply_line_fixes(rows, fixes):
+    """Returns (applied, already_done, stale) — stale ones are left untouched."""
+    applied, done, stale = 0, 0, []
+    by_id = {r["id"]: r for r in rows}
+    for id_, (before, after, _note, n) in fixes.items():
+        r = by_id.get(id_)
+        if r is None:
+            stale.append((n, id_, "no such id"))
+        elif r["fr"] == after:
+            done += 1
+        elif r["fr"] == before:
+            r["fr"] = after
+            applied += 1
+        else:
+            stale.append((n, id_, "line no longer reads `before`"))
+    return applied, done, stale
 
 
 def load_rows(path):
@@ -151,6 +195,14 @@ def main():
             print(f"          before: {b}")
             print(f"          after : {a}")
     print(f"\n{sum(counts.values()):,} replacements across {changed:,} lines")
+
+    fixes = load_line_fixes()
+    applied, done, stale = apply_line_fixes(rows, fixes)
+    print(f"line fixes: {applied} applied, {done} already done, {len(stale)} stale")
+    for n, id_, why in stale:
+        print(f"  [line_fixes.tsv:{n}] {id_}: {why}")
+    if stale:
+        sys.exit("stale line fixes — review them before applying anything")
 
     if args.apply:
         shutil.copy2(args.target, args.target + ".bak")

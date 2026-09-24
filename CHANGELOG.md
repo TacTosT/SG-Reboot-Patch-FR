@@ -6,7 +6,22 @@ Aucune entrée de ce fichier ne dévoile d'élément de l'histoire.
 
 ## Prochaine version — non publiée
 
-Installeur plus sûr. La traduction ne change pas.
+Installeur plus sûr, et traduction harmonisée.
+
+### Traduction
+
+- **Shining Finger reste Shining Finger.** Le surnom qu'Okabe donne à Moeka
+  était traduit de quinze façons (« la Masseuse fulgurante », « l'acupressiste »,
+  « le maître du shiatsu »…), parfois au masculin. C'est un nom propre : il
+  reste en anglais, partout (95 répliques).
+- **Articles affichés en double** dans cinq annotations (« la « la Masseuse… »,
+  « de l'l'opération »). Corrigé.
+- **Termes unifiés** : « poignée de main aux poussières d'étoiles », « guerre
+  sainte finale », « Opération Urd ».
+- **Typographie** : une seule apostrophe (’) sur tout le texte, et plus de
+  ponctuation japonaise (？！) au milieu du français.
+
+### Installeur
 
 - **« Restaurer l'original » ne peut plus abîmer le jeu.** Après une mise à
   jour du jeu, la sauvegarde date de l'ancienne version : le bouton est alors

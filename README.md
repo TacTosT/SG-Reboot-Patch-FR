@@ -146,6 +146,7 @@ clair connu, sans désassembleur.
 python extract_dialogue.py --all     # extraire les dialogues
 python translate.py submit           # traduire (API Batch)
 python validate.py <src> <fr>        # contrôler balises et complétude
+python check_fr.py                   # contrôler la traduction seule (sans le jeu)
 python inject.py --apply             # patcher (sauvegarde vérifiée SHA-256)
 python inject.py --restore           # tout remettre en place
 ```

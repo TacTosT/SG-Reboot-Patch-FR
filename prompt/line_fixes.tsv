@@ -1,0 +1,105 @@
+# Corrections relues, une par réplique : id<TAB>avant<TAB>après.
+# Appliquées par fix_terms.py après terminology_fixes.tsv ; « avant » est
+# donc le texte une fois les règles globales passées. Une ligne qui ne
+# correspond plus à « avant » fait échouer l'application.
+#
+# 2026-09-24 — Shining Finger reste un nom propre, sans traduction ni
+# rubis (même principe que Steins Gate). Il remplace les 15 variantes
+# (masseuse, acupressiste, shiatsuka, maître du shiatsu…), dont 5 rubis
+# qui affichaient l'article en double et 6 lignes au masculin.
+# Même passe : Stardust Handshake, Ragnarök et Opération Urd harmonisés.
+resg01_09.ks:*start:105	Son pouvoir s’appelle sans doute la « [Shining Finger,21]la Masseuse fulgurante ».	Son pouvoir s’appelle sans doute « Shining Finger ».
+resg01_09.ks:*start:145	« La Masseuse Fulgurante » s’est apparemment contentée de l’échange d’adresses : elle a filé sans un mot.	« Shining Finger » s’est apparemment contentée de l’échange d’adresses : elle a filé sans un mot.
+resg01_10.ks:*dummy4:47	À force de me battre avec un maître du shiatsu et une fille-chat, j’ai failli oublier mon objectif initial.	À force de me battre avec Shining Finger et une fille-chat, j’ai failli oublier mon objectif initial.
+resg01_10.ks:*dummy5:1	Le mail de l’acupresseuse commence par des excuses et une justification à propos de la photo de tout à l’heure.	Le mail de Shining Finger commence par des excuses et une justification à propos de la photo de tout à l’heure.
+resg01_10.ks:*dummy5:7	C’est vraiment la même personne que cette [Shining Finger,25]l’Acupresseuse de l’Éclair ?	C’est vraiment la même personne que Shining Finger ?
+resg02_01.ks:*dummy1:2	Tous de la « [Shining Finger,21]la Masseuse Fulgurante »%p-1;─%p;─la fille qui s’est présentée comme Kiryuu Moeka.	Tous de « Shining Finger »%p-1;─%p;─la fille qui s’est présentée comme Kiryuu Moeka.
+resg02_01.ks:*dummy1:4	Vu sa dextérité au clavier, j’aurais dû me douter que la Masseuse était une accro du mail. J’ai été imprudent.	Vu sa dextérité au clavier, j’aurais dû me douter que Shining Finger était une accro du mail. J’ai été imprudent.
+resg02_02.ks:*dummy3:1	Ces derniers temps, la sonnerie de mes messages me flanque la nausée.\nÇa doit encore être cette accro aux mails, la maîtresse du shiatsu.	Ces derniers temps, la sonnerie de mes messages me flanque la nausée.\nÇa doit encore être cette accro aux mails, Shining Finger.
+resg02_02.ks:*dummy4:52	Ça m’étonnerait. Cette masseuse n’avait pas l’air de savoir quelles fonctions l’IBN 5100 embarquait.	Ça m’étonnerait. Shining Finger n’avait pas l’air de savoir quelles fonctions l’IBN 5100 embarquait.
+resg02_02.ks:*dummy4:7	J’ouvre le message de la maîtresse du shiatsu.\nVoici ce qui était écrit.	J’ouvre le message de Shining Finger.\nVoici ce qui était écrit.
+resg02_06.ks:*010:19	Je l’ai baptisée de mon propre chef « [Stardust Handshake,42]la poignée de main aux poussières d’étoiles ».	Je l’ai baptisée de mon propre chef « [Stardust Handshake,39]poignée de main aux poussières d’étoiles ».
+resg02_06.ks:*dummy5:16	[Ragnarök,22]La guerre sainte finale, c’est moi qui la déclencherai. Pour refaçonner ce monde !	La [Ragnarök,19]guerre sainte finale, c’est moi qui la déclencherai. Pour refaçonner ce monde !
+resg02_07.ks:*010:0	Le message de la masseuse commence par des excuses, puis :\n« Je jure de ne plus envoyer de messages courts, alors ne m’abandonne pas. J’aimerais qu’on cherche l’IBN 5100 ensemble. »	Le message de Shining Finger commence par des excuses, puis :\n« Je jure de ne plus envoyer de messages courts, alors ne m’abandonne pas. J’aimerais qu’on cherche l’IBN 5100 ensemble. »
+resg02_07.ks:*dummy6:0	Le message de la spécialiste du shiatsu disait : « Donne-moi les coordonnées du super hackeur~♪ »	Le message de Shining Finger disait : « Donne-moi les coordonnées du super hackeur~♪ »
+resg02_07.ks:*dummy7:1	Maudite masseuse. Je lui avais dit d’arrêter d’envoyer des messages en rafale, elle n’a toujours pas compris ?	Maudite Shining Finger. Je lui avais dit d’arrêter d’envoyer des messages en rafale, elle n’a toujours pas compris ?
+resg02_07.ks:*dummy9:6	Bon, répondons à la masseuse.	Bon, répondons à Shining Finger.
+resg02_07.ks:*start:2	Maintenant que j’y pense, [Shining Finger,22]la masseuse de l’éclair était mordue de l’IBN 5100.	Maintenant que j’y pense, Shining Finger était mordue de l’IBN 5100.
+resg02_09.ks:*dummy8:71	J’affiche sur mon portable la photo de l’IBN 5100 envoyée par le shiatsuki et la brandis sous le nez de Faris.	J’affiche sur mon portable la photo de l’IBN 5100 envoyée par Shining Finger et la brandis sous le nez de Faris.
+resg02_10.ks:*dummy2:0	Le mail de la masseuse disait : « Quelle coïncidence de se croiser ici ♪ La recherche de l’IBN 5100 avance bien ? »	Le mail de Shining Finger disait : « Quelle coïncidence de se croiser ici ♪ La recherche de l’IBN 5100 avance bien ? »
+resg02_10.ks:*dummy2:5	Même à une question directe, la masseuse ne répond rien, et%p-1;─%p;─	Même à une question directe, Shining Finger ne répond rien, et%p-1;─%p;─
+resg02_10.ks:*dummy4:0	Le mail de la masseuse disait ceci.	Le mail de Shining Finger disait ceci.
+resg02_10.ks:*dummy4:10	Autrement dit, la maîtresse du shiatsu a peur.	Autrement dit, Shining Finger a peur.
+resg02_10.ks:*dummy5:0	Le message de la masseuse disait ceci.	Le message de Shining Finger disait ceci.
+resg02_10.ks:*dummy6:0	Le message de la masseuse shiatsu disait : « Je n’ai plus aucune piste… Je ne sais plus quoi faire… »	Le message de Shining Finger disait : « Je n’ai plus aucune piste… Je ne sais plus quoi faire… »
+resg02_10.ks:*target:16	Cela dit, moi non plus je n’ai pas retenu le nom de la masseuse, alors je ne peux rien dire.	Cela dit, moi non plus je n’ai pas retenu le nom de Shining Finger, alors je ne peux rien dire.
+resg02_10.ks:*target:18	Au mot « IBN 5100 », la masseuse a tressailli.	Au mot « IBN 5100 », Shining Finger a tressailli.
+resg02_10.ks:*target:6	[Shining Finger,23]Acupressrice de l’Éclair !	Shining Finger !
+resg02_10.ks:*target:8	Acupressrice !	Shining Finger !
+resg02_10.ks:*target:9	Même en allant lui parler sous le nez, l’acupressrice ne lève pas la tête.	Même en allant lui parler sous le nez, Shining Finger ne lève pas la tête.
+resg02_11.ks:*start:0	Après avoir quitté le maître shiatsu, je vais cuisiner un vendeur que je connais dans une boutique d’informatique.	Après avoir quitté Shining Finger, je vais cuisiner un vendeur que je connais dans une boutique d’informatique.
+resg02_11.ks:*start:6	D’ailleurs, avant que je voie le maître shiatsu, Mayuri m’a appelé, ce qui est rare.	D’ailleurs, avant que je voie Shining Finger, Mayuri m’a appelé, ce qui est rare.
+resg02_17.ks:*010:0	Le message de la masseuse disait qu’elle n’avait rien trouvé, et se terminait par ceci.	Le message de Shining Finger disait qu’elle n’avait rien trouvé, et se terminait par ceci.
+resg02_17.ks:*010:29	Peu importe. Avant de répondre à l’acupressiste, je sors un Doc P du frigo et le lance doucement à Kurisu.	Peu importe. Avant de répondre à Shining Finger, je sors un Doc P du frigo et le lance doucement à Kurisu.
+resg02_17.ks:*010:34	Bon, cette réponse à l’acupressiste…	Bon, cette réponse à Shining Finger…
+resg02_17.ks:*dummy11:0	Et en plus, l’acupressiste exige que je réponde, et écrit « À partir de maintenant, on prend contact régulièrement. »%p-1;─%p;─	Et en plus, Shining Finger exige que je réponde, et écrit « À partir de maintenant, on prend contact régulièrement. »%p-1;─%p;─
+resg02_17.ks:*dummy11:3	Et la fin du mail suivant de l’acupressiste disait ceci.	Et la fin du mail suivant de Shining Finger disait ceci.
+resg02_17.ks:*dummy4:0	Le message de l’acupressiste disait : « Quelle marchandise ? Pas l’IBN 5100 quand même ? Cède-la-moi !!! »	Le message de Shining Finger disait : « Quelle marchandise ? Pas l’IBN 5100 quand même ? Cède-la-moi !!! »
+resg02_17.ks:*dummy6:0	Le message du maître du shiatsu ne disait qu’une chose : « Prête-le-moi !!! »	Le message de Shining Finger ne disait qu’une chose : « Prête-le-moi !!! »
+resg03_02.ks:*dummy2:34	Quoi qu’il en soit, le [Ragnarök,19]guerre sainte finale entre notre labo et le SERN est désormais inévitable	Quoi qu’il en soit, la [Ragnarök,19]guerre sainte finale entre notre labo et le SERN est désormais inévitable
+resg03_07.ks:*dummy11:0	Le message de la masseuse par pression digitale dit : « Je peux prendre une photo ? »	Le message de Shining Finger dit : « Je peux prendre une photo ? »
+resg03_07.ks:*dummy3:0	Le message du maître du shiatsu disait ceci.	Le message de Shining Finger disait ceci.
+resg03_07.ks:*dummy6:2	Ou alors est-ce là le revers du pouvoir de l’« [Shining Finger,23]acupressiste de l’éclair »… !	Ou alors est-ce là le revers du pouvoir de « Shining Finger »… !
+resg03_07.ks:*dummy8:0	Le message de l’acupressiste disait : « Tu avais dit que je pouvais venir voir. »	Le message de Shining Finger disait : « Tu avais dit que je pouvais venir voir. »
+resg03_08.ks:*dummy2:0	Le message de la masseuse disait : « J’aimerais l’emprunter, ce n’est pas possible ? »	Le message de Shining Finger disait : « J’aimerais l’emprunter, ce n’est pas possible ? »
+resg03_08.ks:*dummy2:10	Une fois de plus, la masseuse justifie son titre : ses doigts filent sur le clavier du téléphone.	Une fois de plus, Shining Finger justifie son titre : ses doigts filent sur le clavier du téléphone.
+resg03_08.ks:*dummy2:11	Le mail de la masseuse disait : « C’est pas juste ＞＜ Dis-moi au moins où tu l’as trouvé… d’accord ? »	Le mail de Shining Finger disait : « C’est pas juste ＞＜ Dis-moi au moins où tu l’as trouvé… d’accord ? »
+resg03_08.ks:*dummy2:3	Le message de la masseuse disait : « Si tu m’aidais à le transporter, je serais très contente. »	Le message de Shining Finger disait : « Si tu m’aidais à le transporter, je serais très contente. »
+resg03_08.ks:*dummy2:41	Ah, laisse-moi te la présenter. Voici [Shining Finger,20]l’acupressiste éclair, Kiryuu Moeka.	Ah, laisse-moi te la présenter. Voici Shining Finger, Kiryuu Moeka.
+resg03_08.ks:*dummy6:0	Le message de la masseuse shiatsu ne disait qu’une chose : « Vous seriez FB ? »\nC’est quoi, ce code ?	Le message de Shining Finger ne disait qu’une chose : « Vous seriez FB ? »\nC’est quoi, ce code ?
+resg03_09.ks:*dummy4:55	Depuis qu’on lui a tout raconté, cette masseuse s’intéresse beaucoup à la machine à voyager dans le temps.	Depuis qu’on lui a tout raconté, Shining Finger s’intéresse beaucoup à la machine à voyager dans le temps.
+resg03_09.ks:*start:20	Autrefois, j’aurais mis fin sans pitié aux jours de cette masseuse…	Autrefois, j’aurais mis fin sans pitié aux jours de Shining Finger…
+resg03_10.ks:*dummy15:31	…C’est moi. Nous passons à la phase deux de l’[Opération Urd,30]l’opération « Déesse du passé »	…C’est moi. Nous passons à la phase deux de l’Opération Urd
+resg03_10.ks:*dummy15:82	La phase deux de l’[Opération Urd,31]Opération « La Déesse du passé » comporte bel et bien des risques, comme l’a dit la Célé-Sept ici présente.	La phase deux de l’Opération Urd comporte bel et bien des risques, comme l’a dit la Célé-Sept ici présente.
+resg03_11.ks:*from_resg03_10:75	On vient tout juste d’exécuter la phase 2 de [Opération Urd,30]l’opération « Déesse du passé », non ?!	On vient tout juste d’exécuter la phase 2 de l’Opération Urd, non ?!
+resg04_04.ks:*dummy3:2	C’est l’[Shining Finger,23]acupresseuse de l’éclair%p-1;─%p;─surnom que je lui ai donné, soit%p-1;─%p;─réputée pour ses rafales de mails : Kiryuu Moeka, forcément.	C’est Shining Finger%p-1;─%p;─surnom que je lui ai donné, soit%p-1;─%p;─réputée pour ses rafales de mails : Kiryuu Moeka, forcément.
+resg04_04.ks:*dummy4:0	Le mail de l’acupresseuse dit : « Moi aussi je veux envoyer un D-Mail ! C’est non… ? »	Le mail de Shining Finger dit : « Moi aussi je veux envoyer un D-Mail ! C’est non… ? »
+resg04_04.ks:*dummy5:0	Puis un autre message de la masseuse est arrivé : « Je suis bien l’une des Labomem, non ? »	Puis un autre message de Shining Finger est arrivé : « Je suis bien l’une des Labomem, non ? »
+resg04_04.ks:*dummy5:15	J’ai répondu à la shiatsuka : « Fort bien. Labomem numéro 005, Shiatsuka de l’Éclair. Présente-toi au labo sur-le-champ. »	J’ai répondu à Shining Finger : « Fort bien. Labomem numéro 005, Shining Finger. Présente-toi au labo sur-le-champ. »
+resg04_04.ks:*dummy5:8	Il s’agit de savoir si je dois intégrer [Shining Finger,22]la Masseuse de l’Éclair aux expériences du Phone Microwave (provisoire).	Il s’agit de savoir si je dois intégrer Shining Finger aux expériences du Phone Microwave (provisoire).
+resg04_04.ks:*dummy6:1	Le mail de la shiatsuka disait : « En fait, je suis déjà devant l’immeuble ♪ »	Le mail de Shining Finger disait : « En fait, je suis déjà devant l’immeuble ♪ »
+resg04_05.ks:*dummy10:0	Le mail de la Masseuse disait qu’elle regrettait d’avoir changé de téléphone quatre jours plus tôt. Et ça continuait ainsi :	Le mail de Shining Finger disait qu’elle regrettait d’avoir changé de téléphone quatre jours plus tôt. Et ça continuait ainsi :
+resg04_05.ks:*dummy10:14	Bien, Masseuse.	Bien, Shining Finger.
+resg04_05.ks:*dummy10:15	Dis, dis, pourquoi tu appelles Moeka-san « Masseuse » ?	Dis, dis, pourquoi tu appelles Moeka-san « Shining Finger » ?
+resg04_05.ks:*dummy10:17	Kiryuu Moeka, dorénavant vous vous nommerez la Masseuse de l’Éclair, autrement dit Shining Finger !	Kiryuu Moeka, dorénavant vous vous nommerez Shining Finger !
+resg04_05.ks:*dummy10:22	C’est que Moeka-san, c’est Moeka-san, voilà. Et puis, elle est pas masseuse, elle travaille dans une société éditoriale…	C’est que Moeka-san, c’est Moeka-san, voilà. Et puis, elle fait pas de shiatsu, elle travaille dans une société éditoriale…
+resg04_05.ks:*dummy10:3	La [Shining Finger,19]Masseuse de l’Éclair est décidément compétente ! Le modèle même du Labomem !	Shining Finger est décidément compétente ! Le modèle même du Labomem !
+resg04_05.ks:*dummy10:5	Les trois bons à rien n’avaient rien à objecter au brillant plan de la Masseuse.	Les trois bons à rien n’avaient rien à objecter au brillant plan de Shining Finger.
+resg04_05.ks:*dummy2:0	Le mail de la shiatsuka disait : « D’avoir accepté mon caprice. »	Le mail de Shining Finger disait : « D’avoir accepté mon caprice. »
+resg04_05.ks:*dummy4:0	Le message de la shiatsuki disait ceci.	Le message de Shining Finger disait ceci.
+resg04_05.ks:*dummy6:0	Le message de la shiatsuki disait : « C’est privé, ça me gêne que vous le sachiez… »	Le message de Shining Finger disait : « C’est privé, ça me gêne que vous le sachiez… »
+resg04_05.ks:*dummy8:0	Le message de la masseuse disait : « Tu peux me montrer les D-Mails déjà envoyés ? J’aimerais m’en inspirer pour décider. »	Le message de Shining Finger disait : « Tu peux me montrer les D-Mails déjà envoyés ? J’aimerais m’en inspirer pour décider. »
+resg04_05.ks:*dummy8:17	Des doigts à toute vitesse. La [Shining Finger,19]Masseuse de l’Éclair dans son élément.	Des doigts à toute vitesse. Shining Finger dans son élément.
+resg04_05.ks:*dummy8:6	Le message de la masseuse disait : « Laisse tomber l’historique. Je ferai comme tu dis, je ne le cacherai pas. »	Le message de Shining Finger disait : « Laisse tomber l’historique. Je ferai comme tu dis, je ne le cacherai pas. »
+resg04_06.ks:*dummy1:2	La réponse de la masseuse dit : « Un souci ? Je suis un peu occupée là. Désolée. Je te renvoie un mail plus tard. »	La réponse de Shining Finger dit : « Un souci ? Je suis un peu occupée là. Désolée. Je te renvoie un mail plus tard. »
+resg04_07.ks:*start:20	Ou plutôt, son tic habituel%p-1;─%p;─ la « [Stardust Handshake,26]poignée de main aux étoiles » venait de s’enclencher.	Ou plutôt, son tic habituel%p-1;─%p;─ la « [Stardust Handshake,39]poignée de main aux poussières d’étoiles » venait de s’enclencher.
+resg05_07.ks:*dummy2:0	Le message de la masseuse dit : « Où en est la machine à voyager dans le temps ? »	Le message de Shining Finger dit : « Où en est la machine à voyager dans le temps ? »
+resg05_07.ks:*dummy2:6	Message de la masseuse : « C’est quoi, un time leap ? Raconte-moi tout ! »	Message de Shining Finger : « C’est quoi, un time leap ? Raconte-moi tout ! »
+resg05_07.ks:*dummy4:11	Le mail de la masseuse disait : « C’est quoi, un time leap ?! »	Le mail de Shining Finger disait : « C’est quoi, un time leap ?! »
+resg05_07.ks:*dummy6:8	Le mail de la masseuse débordait d’éloges, suivies d’un : « C’est prévu pour quand ? »	Le mail de Shining Finger débordait d’éloges, suivies d’un : « C’est prévu pour quand ? »
+resg05_07.ks:*from_resg05_06:13	Décidément, cette [Shining Finger,22]la masseuse de l’éclair est difficile à manier.	Décidément, Shining Finger est difficile à manier.
+resg05_07.ks:*from_resg05_06:15	Masseuse, là-bas ! Quelle mine sombre affichez-vous donc !	Shining Finger, là-bas ! Quelle mine sombre affichez-vous donc !
+resg06_08.ks:*dummy4:1	Le message de la masseuse dit : « J’ai à te parler. J’arrive. »	Le message de Shining Finger dit : « J’ai à te parler. J’arrive. »
+resg08_13r.ks:*dummy2:145	[Stardust Handshake,29]la poignée de main aux étoiles.	La [Stardust Handshake,39]poignée de main aux poussières d’étoiles.
+resg09_10.ks:*dummy2:0	Le message de la masseuse dit : « Je n’ai plus besoin de l’IBN 5100 pour l’instant. »	Le message de Shining Finger dit : « Je n’ai plus besoin de l’IBN 5100 pour l’instant. »
+resg09_10.ks:*dummy2:5	Le message de la masseuse dit : « Mon supérieur m’a ordonné d’arrêter. »	Le message de Shining Finger dit : « Mon supérieur m’a ordonné d’arrêter. »
+resg09_10.ks:*dummy2:8	Le message de la masseuse dit : « Comment tu connais FB ? D’où tu sors ça ? »	Le message de Shining Finger dit : « Comment tu connais FB ? D’où tu sors ça ? »
+resg09_11.ks:*dummy2:0	Le message de la shiatsuki disait : « J’ai plus besoin de l’IBN 5100 pour l’instant. »	Le message de Shining Finger disait : « J’ai plus besoin de l’IBN 5100 pour l’instant. »
+resg09_11.ks:*dummy2:2	Le message de la shiatsuki disait : « Mon supérieur m’a dit d’arrêter. »	Le message de Shining Finger disait : « Mon supérieur m’a dit d’arrêter. »
+resg09_11.ks:*dummy2:5	Le message de la shiatsuki disait : « Comment tu connais FB ? Où tu as eu cette info ? »	Le message de Shining Finger disait : « Comment tu connais FB ? Où tu as eu cette info ? »
+resg09_12.ks:*dummy2:24	L’heure est venue de clore ce long combat ! Autrement dit, [Ragnarök,22]la Guerre sainte finale commence !	L’heure est venue de clore ce long combat ! Autrement dit, la [Ragnarök,19]guerre sainte finale commence !
+resg10_01.ks:*merge:186	[Stardust Handshake,31]Poignée de main avec les étoiles.	[Stardust Handshake,39]Poignée de main aux poussières d’étoiles.
+resg10_11k.ks:*start:52	Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte ultime !	Nul complot n’a su me faire fléchir : fidèle à ma conviction, j’ai mené jusqu’au bout la [Ragnarök,19]guerre sainte finale !
+resg11_08.ks:*from_resg11_07:82	Inutile, la shiatsuka et moi nous connaissons déjà.	Inutile, Shining Finger et moi nous connaissons déjà.
+resg11_08.ks:*from_resg11_07:83	Shiatsuka ? C’est qui, ça ?	Shining Finger ? C’est qui, ça ?
+resg11_08.ks:*from_resg11_07:84	[Shining Finger,23]la shiatsuka de l’éclair. C’est le nom de son pouvoir.	Shining Finger. C’est le nom de son pouvoir.
